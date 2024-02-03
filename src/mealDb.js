@@ -79,7 +79,7 @@ const recipes = [
         },
       ],
     },
-    course: "Main Course",
+    course: "Main",
     prepTime: "5 minutes",
     cookTime: "15 minutes",
     totalTime: "20 minutes",
@@ -112,7 +112,7 @@ const recipes = [
     overview:
       "This delicious, protein-packed Nigerian turkey stew is made with ground peppers, tomatoes, turkey parts, and spices. It will have you licking your lips and drooling!",
     image:
-      "https://divaliciousrecipes.com/wp-content/uploads/2016/08/Cauliflower-Rice.jpg",
+      "https://lowcarbafrica.com/wp-content/uploads/2021/09/Nigerian-Turkey-Stew-IG-1.jpg",
 
     recipe: {
       instructions: [
@@ -132,66 +132,66 @@ const recipes = [
         {
           name: "2 lbs turkey meat",
           image:
-            "https://bombayspiceland.com/wp-content/uploads/2020/07/cauliflower.jpg",
+            "https://www.lafoodservice.com/wp-content/uploads/2020/06/turkey-breast-sliced-jennie-o.jpg",
         },
         {
           name: "3 plum tomatoes",
           image:
-            "https://hahtolanliha.fi/wp-content/uploads/2016/03/Tomato.jpg",
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 habanero pepper",
           image:
-            "https://media.istockphoto.com/id/1164717353/photo/red-hot-habanero-peppers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Iy3JP2FSS6aMapD6ZDan6Y10zVorZTUUhz_7Mebt_oM=",
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 red bell pepper",
           image:
-            "https://i0.wp.com/tamhouston.com/wp-content/uploads/2022/03/red-bell-pepper-single.jpg?fit=1080%2C1080&ssl=1",
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "½ onion",
           image:
-            "https://media.istockphoto.com/id/175448479/photo/red-onion-slice.jpg?s=612x612&w=0&k=20&c=LN1FqmYnwbHkhgBxV9FQ9zFm52iJKo1gO1EwNjbKuAw=",
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "¼ cup olive oil",
           image:
-            "https://martking.ng/wp-content/uploads/2022/08/Martking-Online-Store-Palm-oil-1.5L.jpg",
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 teaspoon bouillon powder",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "½ teaspoon curry",
           image:
-            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
+            "https://thumbs.dreamstime.com/z/teaspoon-curry-powder-isolated-white-background-261886802.jpg",
         },
         {
           name: "½ teaspoon thyme",
           image:
-            "https://ekoaketefoods.com/cdn/shop/products/blended-crayfishmain.png?v=1622236106",
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "½ teaspoon black pepper",
           image:
-            "https://images.eatthismuch.com/img/127788_Shamarie84_60d5dcc1-cfa5-42f8-8c99-198e31473df4.jpeg",
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "½ cup chicken stock",
           image:
-            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "salt to taste",
           image:
-            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
-    course: "Main Course",
+    course: "Main",
     prepTime: "5 minutes",
     cookTime: "50 minutes",
     totalTime: "55 minutes",
@@ -224,7 +224,7 @@ const recipes = [
     overview:
       "This Nigerian peppered croaker fish recipe is a special dish made with just a few aromatic spices that blend together perfectly for a mouthwatering experience!",
     image:
-      "https://divaliciousrecipes.com/wp-content/uploads/2016/08/Cauliflower-Rice.jpg",
+      "https://lowcarbafrica.com/wp-content/uploads/2022/03/Peppered-Croaker-FIsh-3.webp",
 
     recipe: {
       instructions: [
@@ -244,61 +244,61 @@ const recipes = [
         {
           name: "1.5 lbs croaker fish",
           image:
-            "https://bombayspiceland.com/wp-content/uploads/2020/07/cauliflower.jpg",
+            "https://www.sandfmeatshop.com.ng/wp-content/uploads/2021/10/GetPaidStock.com-614da5d584163.jpg",
         },
         {
           name: "3 tablespoon olive oil",
           image:
-            "https://hahtolanliha.fi/wp-content/uploads/2016/03/Tomato.jpg",
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "2 red bell peppers",
           image:
-            "https://media.istockphoto.com/id/1164717353/photo/red-hot-habanero-peppers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Iy3JP2FSS6aMapD6ZDan6Y10zVorZTUUhz_7Mebt_oM=",
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper you can use just ½",
           image:
-            "https://i0.wp.com/tamhouston.com/wp-content/uploads/2022/03/red-bell-pepper-single.jpg?fit=1080%2C1080&ssl=1",
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "½ onion",
           image:
-            "https://media.istockphoto.com/id/175448479/photo/red-onion-slice.jpg?s=612x612&w=0&k=20&c=LN1FqmYnwbHkhgBxV9FQ9zFm52iJKo1gO1EwNjbKuAw=",
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 cup tomato sauce",
           image:
-            "https://martking.ng/wp-content/uploads/2022/08/Martking-Online-Store-Palm-oil-1.5L.jpg",
+            "https://www.seriouseats.com/thmb/lFQwEdCSP6Y-sVoGqQry-fd0iVw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-best-slow-cooked-italian-american-tomato-sauce-red-sauce-recipe-step-09-05ad7578f9d34a5092086ae959bea8a7.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "2 teaspoon black pepper 1 teaspoon to marinate, 1 teaspoon to cook",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1 salt or to taste ½ teaspoon to marinate, ½ to cook",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1½ cup water",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "oil for frying",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be",
         },
       ],
     },
-    course: " Main Course",
+    course: " Main",
     prepTime: "5 minutes",
     cookTime: "20 minutes",
     totalTime: "25 minutes",
@@ -330,7 +330,7 @@ const recipes = [
     overview:
       "Cabbage rice (also known as riced cabbage) is a quick, easy, and savory side dish and is a great alternative to cauliflower rice with only 7 net carbs! You can easily double it up for a full, satisfying, and nutritious meal.",
     image:
-      "https://divaliciousrecipes.com/wp-content/uploads/2016/08/Cauliflower-Rice.jpg",
+      "https://thymeandlove.com/wp-content/uploads/2021/09/vegan-fried-rice-720x720.jpg",
 
     recipe: {
       instructions: [
@@ -346,38 +346,37 @@ const recipes = [
       ingredients: [
         {
           name: "½ cabbage medium",
-          image:
-            "https://bombayspiceland.com/wp-content/uploads/2020/07/cauliflower.jpg",
+          image: "https://ladgroup.org/wp-content/uploads/2020/12/p5.jpg",
         },
         {
           name: "2 tablespoon olive oil",
           image:
-            "https://hahtolanliha.fi/wp-content/uploads/2016/03/Tomato.jpg",
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 red bell pepper",
           image:
-            "https://media.istockphoto.com/id/1164717353/photo/red-hot-habanero-peppers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Iy3JP2FSS6aMapD6ZDan6Y10zVorZTUUhz_7Mebt_oM=",
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 bunch scallion",
           image:
-            "https://i0.wp.com/tamhouston.com/wp-content/uploads/2022/03/red-bell-pepper-single.jpg?fit=1080%2C1080&ssl=1",
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
         },
         {
           name: "½ tablespoon bouillon powder",
           image:
-            "https://media.istockphoto.com/id/175448479/photo/red-onion-slice.jpg?s=612x612&w=0&k=20&c=LN1FqmYnwbHkhgBxV9FQ9zFm52iJKo1gO1EwNjbKuAw=",
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "½ teaspoon salt to taste",
           image:
-            "https://martking.ng/wp-content/uploads/2022/08/Martking-Online-Store-Palm-oil-1.5L.jpg",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 teaspoon black pepper",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
       ],
     },
@@ -414,7 +413,7 @@ const recipes = [
     overview:
       "Eggplant chicken stew is a delicious and healthy, nutrient-packed stew that goes perfectly well with low carb rice and noodle dishes. It is low carb and gluten free and has only 6 net carbs!",
     image:
-      "https://divaliciousrecipes.com/wp-content/uploads/2016/08/Cauliflower-Rice.jpg",
+      "https://images.services.kitchenstories.io/5P5n8o8od1MPrNLNHZE0LM_Wu3c=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/R2003-photo-final-001.jpg",
 
     recipe: {
       instructions: [
@@ -440,56 +439,56 @@ const recipes = [
         {
           name: "2 eggplants",
           image:
-            "https://bombayspiceland.com/wp-content/uploads/2020/07/cauliflower.jpg",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/279/279359/two-eggplants-on-a-wooden-table.jpg",
         },
         {
           name: "4 oz chicken breast",
           image:
-            "https://hahtolanliha.fi/wp-content/uploads/2016/03/Tomato.jpg",
+            "https://hungryhealthyhappy.com/wp-content/uploads/2023/07/slow-cooker-chicken-breast-featured.jpg",
         },
         {
           name: "½ cup palm oil substitute with olive oil",
           image:
-            "https://media.istockphoto.com/id/1164717353/photo/red-hot-habanero-peppers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Iy3JP2FSS6aMapD6ZDan6Y10zVorZTUUhz_7Mebt_oM=",
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "2 tomatoes",
           image:
-            "https://i0.wp.com/tamhouston.com/wp-content/uploads/2022/03/red-bell-pepper-single.jpg?fit=1080%2C1080&ssl=1",
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
           image:
-            "https://media.istockphoto.com/id/175448479/photo/red-onion-slice.jpg?s=612x612&w=0&k=20&c=LN1FqmYnwbHkhgBxV9FQ9zFm52iJKo1gO1EwNjbKuAw=",
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
           image:
-            "https://martking.ng/wp-content/uploads/2022/08/Martking-Online-Store-Palm-oil-1.5L.jpg",
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 teaspoon bouillon powder",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
           image:
-            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "2 teaspoon black pepper",
           image:
-            "https://ekoaketefoods.com/cdn/shop/products/blended-crayfishmain.png?v=1622236106",
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1.5 teaspoon salt to taste",
           image:
-            "https://images.eatthismuch.com/img/127788_Shamarie84_60d5dcc1-cfa5-42f8-8c99-198e31473df4.jpeg",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jp",
         },
       ],
     },
-    course: "Main Course",
+    course: "Main",
     prepTime: "20 minutes",
     cookTime: "15 minutes",
     totalTime: "35 minutes",
@@ -541,37 +540,37 @@ const recipes = [
         {
           name: "1 lb cauliflower rice or one head of cauliflower",
           image:
-            "https://bombayspiceland.com/wp-content/uploads/2020/07/cauliflower.jpg",
+            "https://domf5oio6qrcr.cloudfront.net/medialibrary/5299/h1018g16207257715328.jpg",
         },
         {
           name: "1 tomato",
           image:
-            "https://hahtolanliha.fi/wp-content/uploads/2016/03/Tomato.jpg",
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "½ habanero pepper or ¼ teaspoon cayenne pepper",
           image:
-            "https://media.istockphoto.com/id/1164717353/photo/red-hot-habanero-peppers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Iy3JP2FSS6aMapD6ZDan6Y10zVorZTUUhz_7Mebt_oM=",
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=170265602",
         },
         {
           name: "1 red bell pepper",
           image:
-            "https://i0.wp.com/tamhouston.com/wp-content/uploads/2022/03/red-bell-pepper-single.jpg?fit=1080%2C1080&ssl=1",
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "½ onion",
           image:
-            "https://media.istockphoto.com/id/175448479/photo/red-onion-slice.jpg?s=612x612&w=0&k=20&c=LN1FqmYnwbHkhgBxV9FQ9zFm52iJKo1gO1EwNjbKuAw=",
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "¼ cup palm oil or olive oil",
           image:
-            "https://martking.ng/wp-content/uploads/2022/08/Martking-Online-Store-Palm-oil-1.5L.jpg",
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "½ teaspoon salt",
           image:
-            "https://www.shutterstock.com/shutterstock/videos/1023011272/thumb/1.jpg?ip=x480",
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
@@ -581,12 +580,12 @@ const recipes = [
         {
           name: "1 tablespoon ground crayfish optional",
           image:
-            "https://ekoaketefoods.com/cdn/shop/products/blended-crayfishmain.png?v=1622236106",
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "½ teaspoon black pepper",
           image:
-            "https://images.eatthismuch.com/img/127788_Shamarie84_60d5dcc1-cfa5-42f8-8c99-198e31473df4.jpeg",
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "½ cup water or stock",
@@ -595,7 +594,7 @@ const recipes = [
         },
       ],
     },
-    course: "Main Course",
+    course: "Main",
     prepTime: "5 minutes",
     cookTime: "15 minutes",
     totalTime: "20 minutes",
@@ -627,7 +626,8 @@ const recipes = [
     mealName: "Instant Pot African Lamb Stew",
     overview:
       "If you crave something warm and comforting, this Instant Pot African lamb stew is what you need! Made with tender lamb chunks, veggies, and aromatic spices, this hearty stew will become a family favorite.",
-    image: "IMAGE_URL_OF_AFRICAN_LAMB_STEW",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2021/11/Instant-Pot-African-Lamb-Stew-IG-1.jpg",
 
     recipe: {
       instructions: [
@@ -647,47 +647,59 @@ const recipes = [
       ingredients: [
         {
           name: "1.5 lb lamb meat (lamb shoulder)",
-          image: "IMAGE_URL_OF_LAMB_MEAT",
+          image:
+            "https://www.themeatguy.jp/media/wysiwyg/cookingstudio/recipe/36/36_lamb_00.jpg",
         },
         {
           name: "¼ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee68",
         },
         {
           name: "3 roma tomatoes",
-          image: "IMAGE_URL_OF_ROMA_TOMATOES",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
-        {
-          name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
-        },
-        {
-          name: "½ teaspoon curry",
-          image: "IMAGE_URL_OF_CURRY",
-        },
-        {
-          name: "1 teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
-        },
-        {
-          name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
-        },
-        {
-          name: "½ teaspoon salt or to taste",
-          image: "IMAGE_URL_OF_SALT",
-        },
+        [
+          {
+            name: "½ onion",
+            image:
+              "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
+          },
+          {
+            name: "½ teaspoon curry",
+            image:
+              "https://thumbs.dreamstime.com/z/teaspoon-curry-powder-isolated-white-background-261886802.jpg",
+          },
+          {
+            name: "1 teaspoon bouillon powder",
+            image:
+              "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
+          },
+          {
+            name: "1 teaspoon black pepper",
+            image:
+              "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
+          },
+          {
+            name: "½ teaspoon salt or to taste",
+            image:
+              "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
+          },
+        ],
       ],
     },
-    course: "Main Course",
+    course: "Main ",
     prepTime: "10 minutes",
     cookTime: "40 minutes",
     totalTime: "50 minutes",
@@ -719,7 +731,8 @@ const recipes = [
     mealName: "Salmon Stew",
     overview:
       "This hearty, easy salmon stew recipe is one of the easiest ways to add more fish to your diet. This dish is also great for home cooks who like to prepare big batches of food and then freeze them for the week.",
-    image: "IMAGE_URL_OF_SALMON_STEW",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2023/02/Salmon-Stew-IG-1.jpg",
 
     recipe: {
       instructions: [
@@ -739,55 +752,67 @@ const recipes = [
       ingredients: [
         {
           name: "6 salmon fillets",
-          image: "IMAGE_URL_OF_SALMON_FILETS",
+          image:
+            "https://caudlescatchseafood.com/cdn/shop/products/SalmonOrganicFilletsWatermark.jpg?v=1675453802",
         },
         {
           name: "3 plum tomatoes",
-          image: "IMAGE_URL_OF_PLUM_TOMATOES",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper or ½",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "½ teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "½ teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "½ teaspoon curry powder",
-          image: "IMAGE_URL_OF_CURRY_POWDER",
+          image:
+            "https://thumbs.dreamstime.com/z/teaspoon-curry-powder-isolated-white-background-261886802.jpg",
         },
         {
           name: "½ teaspoon thyme",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "½ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "½ cup broth",
-          image: "IMAGE_URL_OF_BROTH",
+          image:
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "Salt to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
-    course: "Main Course",
+    course: "Main",
     prepTime: "5 minutes",
     cookTime: "30 minutes",
     totalTime: "35 minutes",
@@ -818,7 +843,8 @@ const recipes = [
     mealName: "Efo Riro - Nigerian Spinach Stew",
     overview:
       "Efo riro (Nigerian Spinach Stew) is a mouthwatering, savory, African stew made with 'Efo Shoko' (Lagos spinach) or 'Efo Tete' (African spinach). Who knew spinach could taste so good?",
-    image: "IMAGE_URL_OF_EFO_RIRO_STEW",
+    image:
+      "https://www.mydiasporakitchen.com/wp-content/uploads/2022/02/12717CC6-10D1-4AEE-9B6A-F110C025BFA8.jpeg",
 
     recipe: {
       instructions: [
@@ -838,63 +864,78 @@ const recipes = [
       ingredients: [
         {
           name: "8 cups spinach, chopped",
-          image: "IMAGE_URL_OF_SPINACH",
+          image:
+            "https://hips.hearstapps.com/hmg-prod/images/spinach-1521576635.jpg",
         },
         {
           name: "12 oz cooked meat (goat meat used, but any can be used)",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "2 cups mushrooms",
-          image: "IMAGE_URL_OF_MUSHROOMS",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/278/278858/mushrooms-in-a-bowel-on-a-dark-table.jpg",
         },
         {
           name: "½ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "2 plum tomatoes (also known as roma tomatoes)",
-          image: "IMAGE_URL_OF_PLUM_TOMATOES",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "¼ cup water or stock (optional)",
-          image: "IMAGE_URL_OF_STOCK",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "2 teaspoons bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "2 teaspoons cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "2 teaspoons ground crayfish",
-          image: "IMAGE_URL_OF_GROUND_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 teaspoon pepper flakes (optional)",
-          image: "IMAGE_URL_OF_PEPPER_FLAKES",
+          image:
+            "https://oldworldgardenfarms.com/wp-content/uploads/2018/09/featured-red-pepper-flakes.jpg",
         },
         {
           name: "1 teaspoon salt or to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -925,7 +966,7 @@ const recipes = [
     mealName: "Egg Stew (Nigerian Egg Sauce)",
     overview:
       "This egg stew recipe is one of the easiest and quickest Nigerian stews you can make. It tastes incredible and will leave you begging for more!",
-    image: "IMAGE_URL_OF_EGG_STEW",
+    image: "https://eatwellabi.com/wp-content/uploads/2022/11/egg-sauce-37.jpg",
 
     recipe: {
       instructions: [
@@ -944,47 +985,58 @@ const recipes = [
       ingredients: [
         {
           name: "6 eggs, large",
-          image: "IMAGE_URL_OF_EGGS",
+          image:
+            "https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg",
         },
         {
           name: "2 tomatoes",
-          image: "IMAGE_URL_OF_TOMATOES",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "2 garlic cloves",
-          image: "IMAGE_URL_OF_GARLIC",
+          image:
+            "https://lilluna.com/wp-content/uploads/2020/01/minced-garlic-resize-5.jpg",
         },
         {
           name: "½ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 teaspoon curry",
-          image: "IMAGE_URL_OF_CURRY",
+          image:
+            "https://thumbs.dreamstime.com/z/teaspoon-curry-powder-isolated-white-background-261886802.jpg",
         },
         {
           name: "½ teaspoon thyme",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "1 tablespoon bouillon",
-          image: "IMAGE_URL_OF_BOUILLON",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "Salt to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1017,7 +1069,8 @@ const recipes = [
     mealName: "Okro Soup (West African Okra Soup)",
     overview:
       "Okro soup (African okra soup) is a delicious soup commonly eaten in Nigeria and other West African countries and served with fufu dishes.",
-    image: "IMAGE_URL_OF_OKRO_SOUP",
+    image:
+      "https://nigerianfoodiehub.com/wp-content/uploads/2022/02/Attachment-1-30-1.jpg",
 
     recipe: {
       instructions: [
@@ -1042,71 +1095,88 @@ const recipes = [
       ingredients: [
         {
           name: "1 lb goat meat",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "1 tablespoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 teaspoon salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "25 okra pieces (4 cups chopped)",
-          image: "IMAGE_URL_OF_OKRA",
+          image:
+            "https://4.bp.blogspot.com/-b4v2MRt6IO4/UeEN3mCKhlI/AAAAAAAABJ4/eJcePJUHcpc/s1600/okra-cedf06a6a383adb0af179cabd2cee13df5fa76f7-s6-c30.jpg",
         },
         {
           name: "1.5 cups shrimp",
-          image: "IMAGE_URL_OF_SHRIMP",
+          image:
+            "https://cookanyday.com/cdn/shop/products/ANYDAY_Q1_20239463_grande.jpg?v=1672945401",
         },
         {
           name: "1 smoked catfish",
-          image: "IMAGE_URL_OF_SMOKED_CATFISH",
+          image:
+            "https://freshtodommot.com/cdn/shop/products/eja-kika-smoked-panla.jpg?v=1591946606",
         },
         {
           name: "½ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "2 tablespoon Iru locust bean (optional)",
-          image: "IMAGE_URL_OF_IRU_LOCUST_BEAN",
+          image:
+            "Ihttps://www.capecrystalbrands.com/cdn/shop/articles/unlocking-the-health-benefits-of-locust-bean-gum-107218.png?v=1695782336",
         },
         {
           name: "2 mini bell peppers",
-          image: "IMAGE_URL_OF_BELL_PEPPERS",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 tablespoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon ground crayfish",
-          image: "IMAGE_URL_OF_GROUND_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper or dry ground pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "Meat stock (can substitute with water)",
-          image: "IMAGE_URL_OF_MEAT_STOCK",
+          image:
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "1 teaspoon salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1138,7 +1208,8 @@ const recipes = [
     mealName: "Egusi Soup - Nigerian Melon Seed Stew",
     overview:
       "Egusi Soup (also known as Egusi Stew) is a rich and savory West African soup made with ground melon seeds and eaten with fufu dishes. It is an amazing soup the whole family will enjoy!",
-    image: "IMAGE_URL_OF_EGUSI_SOUP",
+    image:
+      "https://nigerianfoodiehub.com/wp-content/uploads/2023/08/IMG_1965.jpg",
 
     recipe: {
       instructions: [
@@ -1162,15 +1233,18 @@ const recipes = [
       ingredients: [
         {
           name: "2 cups egusi seeds melon seeds",
-          image: "IMAGE_URL_OF_EGUSI_SEEDS",
+          image:
+            "https://somiigbene.com/wp-content/uploads/2021/03/EGUSI-SEEDS.jpg",
         },
         {
           name: "400 g goat meat cooked",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "200 g cow feet cooked",
-          image: "IMAGE_URL_OF_COW_FEET",
+          image:
+            "https://recipes.net/wp-content/uploads/2023/11/how-to-cook-jamaican-cow-foot-1699448376.jpg",
         },
         {
           name: "½ cup palm oil",
@@ -1178,47 +1252,58 @@ const recipes = [
         },
         {
           name: "2 cups spinach",
-          image: "IMAGE_URL_OF_SPINACH",
+          image:
+            "https://hips.hearstapps.com/hmg-prod/images/spinach-1521576635.jpg",
         },
         {
           name: "1 smoked catfish optional",
-          image: "IMAGE_URL_OF_SMOKED_CATFISH",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/R/125317_1593817524.jpg",
         },
         {
           name: "1 tomato",
-          image: "IMAGE_URL_OF_TOMATO",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "½ tablespoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 tablespoon bouillon powder or maggi cubes",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "2 tablespoon crayfish",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 tablespoon salt to boil the meat",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 tablespoon black pepper to boil the meat",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
       ],
     },
@@ -1250,7 +1335,8 @@ const recipes = [
     mealName: "Banga Soup (Palm Nut Soup)",
     overview:
       "Banga Soup, also known as Palm Nut Soup or Ofe Akwu, is one of my favorite Nigerian soups and has a pleasant, nutty flavor. This delightful soup will leave you licking your fingers!",
-    image: "IMAGE_URL_OF_BANGA_SOUP",
+    image:
+      "https://www.myactivekitchen.com/wp-content/uploads/2015/03/niger-delta-banga-soup-recipe-img-7.jpg",
 
     recipe: {
       instructions: [
@@ -1272,35 +1358,42 @@ const recipes = [
       ingredients: [
         {
           name: "1 can Palm-nut concentrate",
-          image: "IMAGE_URL_OF_PALM_NUT_CONCENTRATE",
+          image:
+            "Ihttps://fiduciaafricanshop.com/wp-content/uploads/2019/03/71G5Vcva2DL._SX425_.jpg",
         },
         {
           name: "2 lbs catfish",
-          image: "IMAGE_URL_OF_CATFISH",
+          image:
+            "https://africanunique.com/cdn/shop/products/smokedcatfish_530x@2x.jpg?v=1609982165",
         },
         {
           name: "8 oz shrimps",
-          image: "IMAGE_URL_OF_SHRIMPS",
+          image:
+            "https://cookanyday.com/cdn/shop/products/ANYDAY_Q1_20239463_grande.jpg?v=1672945401S",
         },
         {
           name: "1 tablespoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 tablespoon ground crayfish",
-          image: "IMAGE_URL_OF_GROUND_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1.5 tablespoon banga spice",
-          image: "IMAGE_URL_OF_BANGA_SPICE",
+          image: "https://www.africanfoods.co.uk/images/Banga_Spice_Mix_2.jpg",
         },
         {
           name: "1 teaspoon salt or to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1333,7 +1426,7 @@ const recipes = [
     mealName: "Ogbono Soup (Draw Soup)",
     overview:
       "Ogbono soup is a rich, Nigerian soup made from Ogbono seeds (ground African bush mango seeds), palm oil and assorted meats. Eat ogbono soup with fufu dishes for a delectable Nigerian dish!",
-    image: "IMAGE_URL_OF_OGBONO_SOUP",
+    image: "https://www.battabox.com/ajako/2023/01/ogbono-soup-served.webp",
 
     recipe: {
       instructions: [
@@ -1356,55 +1449,67 @@ const recipes = [
       ingredients: [
         {
           name: "1 cup ogbono seeds",
-          image: "IMAGE_URL_OF_OGBONO_SEEDS",
+          image: "https://afrominimart.com/wp-content/uploads/2021/03/ognb.jpg",
         },
         {
           name: "1 lb beef",
-          image: "IMAGE_URL_OF_BEEF",
+          image:
+            "https://www.eatingwellorganics.ca/cdn/shop/products/Beef-Stew-Beef.jpg?v=1623765042",
         },
         {
           name: "8 oz shaki (tripe)",
-          image: "IMAGE_URL_OF_SHAKI",
+          image:
+            "https://biscuitboneblog.files.wordpress.com/2015/05/img_6151.jpg",
         },
         {
           name: "12 oz cow feet",
-          image: "IMAGE_URL_OF_COW_FEET",
+          image:
+            "https://atasteozimboivyskitchenette.files.wordpress.com/2016/10/img_9941.jpg",
         },
         {
           name: "¾ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "1 cup chopped spinach or your choice of leafy greens",
-          image: "IMAGE_URL_OF_SPINACH",
+          image:
+            "https://hips.hearstapps.com/hmg-prod/images/spinach-1521576635.jpg",
         },
         {
           name: "1 cup onions chopped",
-          image: "IMAGE_URL_OF_ONIONS",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 tablespoon bouillon powder or 2 maggi stock cubes",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 tablespoon ground crayfish",
-          image: "IMAGE_URL_OF_GROUND_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 tablespoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "2 cups meat stock",
-          image: "IMAGE_URL_OF_MEAT_STOCK",
+          image:
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "2 cups water",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "salt to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1437,7 +1542,8 @@ const recipes = [
     mealName: "Chicken Pepper Soup",
     overview:
       "This chicken pepper soup is another well-sought-after delicacy in many Nigerian homes. This hearty soup can be enjoyed any time, no matter the season!",
-    image: "IMAGE_URL_OF_CHICKEN_PEPPER_SOUP",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2021/07/Chicken-Pepper-Soup-IG-1.jpg",
 
     recipe: {
       instructions: [
@@ -1453,35 +1559,42 @@ const recipes = [
       ingredients: [
         {
           name: "2 lbs chicken breast",
-          image: "IMAGE_URL_OF_CHICKEN_BREAST",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2023/07/slow-cooker-chicken-breast-featured.",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 tablespoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 tablespoon pepper soup spice",
-          image: "IMAGE_URL_OF_PEPPER_SOUP_SPICE",
+          image:
+            "https://lowcarbafrica.com/wp-content/uploads/2020/03/Pepper-Soup-Spice-labeled.jpg",
         },
         {
           name: "½ teaspoon smoked paprika",
-          image: "IMAGE_URL_OF_SMOKED_PAPRIKA",
+          image:
+            "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/07/spspot2873.png?fit=512%2C512&ssl=1",
         },
         {
           name: "½ teaspoon salt or to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "3-4 cups water",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "basil leaf (optional) to garnish",
-          image: "IMAGE_URL_OF_BASIL_LEAF",
+          image: "https://cdn.britannica.com/87/207887-050-F48CB55D/basil.jpg",
         },
       ],
     },
@@ -1517,7 +1630,8 @@ const recipes = [
     mealName: "Fish Pepper Soup",
     overview:
       "Fish pepper soup is a soothing West African Pepper Soup, made with just a few ingredients - catfish, vegetables, and spices.",
-    image: "IMAGE_URL_OF_FISH_PEPPER_SOUP",
+    image:
+      "https://lagosbukagrillandbar.com/wp-content/uploads/2021/07/Catfish-Peppersoup.jpegIMAGE_URL_OF_FISH_PEPPER_SOUP",
 
     recipe: {
       instructions: [
@@ -1541,47 +1655,58 @@ const recipes = [
       ingredients: [
         {
           name: "2 lbs catfish",
-          image: "IMAGE_URL_OF_CATFISH",
+          image:
+            "https://kitchenatics.com/wp-content/uploads/2020/06/Fish-fillet-1.jpg",
         },
         {
           name: "1 habanero pepper (chopped)",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 teaspoon smoked paprika",
-          image: "IMAGE_URL_OF_SMOKED_PAPRIKA",
+          image:
+            "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/07/spspot2873.png?fit=512%2C512&ssl=1",
         },
         {
           name: "1 tablespoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jp",
         },
         {
           name: "1 tablespoon pepper soup spice",
-          image: "IMAGE_URL_OF_PEPPER_SOUP_SPICE",
+          image:
+            "https://www.gomarket.com.ng/wp-content/uploads/2020/05/Spice-Supreme-pepper-soup.jpg",
         },
         {
           name: "1 teaspoon crayfish (substitute with 1 tablespoon coconut aminos)",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "½ cup basil leaf (loosely chopped)",
-          image: "IMAGE_URL_OF_BASIL_LEAF",
+          image:
+            "https://www.wikihow.com/images/thumb/9/91/Chop-Basil-Step-9.jpg/550px-nowatermark-Chop-Basil-Step-9.jpg",
         },
         {
           name: "1 lime/lemon (to clean the fish)",
-          image: "IMAGE_URL_OF_LIME_OR_LEMON",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lemon_-_whole_and_split.jpg/405px-Lemon_-_whole_and_split.jpg",
         },
         {
           name: "2 tsp salt (or to taste)",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "½ teaspoon cayenne pepper (optional)",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "6 cups water (or till the fish is completely covered)",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
       ],
     },
@@ -1614,7 +1739,8 @@ const recipes = [
     mealName: "Edikang Ikong Soup (Nigerian Vegetable Soup)",
     overview:
       "Edikang Ikong soup is a traditional Nigerian soup that is highly nutritious and protein-packed. This finger-licking delicacy is also commonly known as Nigerian Vegetable Soup.",
-    image: "IMAGE_URL_OF_EDIKANG_IKONG_SOUP",
+    image:
+      "https://mandifoods.com.ng/wp-content/uploads/2021/01/Vegetable-Soup.jpg",
 
     recipe: {
       instructions: [
@@ -1639,71 +1765,88 @@ const recipes = [
       ingredients: [
         {
           name: "2 lbs goat meat",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "1 teaspoon bouillon powder (or 2 maggi cubes)",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1 teaspoon salt (or to taste)",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "Enough water to cover the meat",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "2 cups waterleaf (malabar spinach)",
-          image: "IMAGE_URL_OF_WATERLEAF",
+          image:
+            "https://guardian.ng/wp-content/uploads/life/2016/03/waterleaf.jpeg",
         },
         {
           name: "4 cups ugwu leaves (fluted pumpkin leaves)",
-          image: "IMAGE_URL_OF_UGWU_LEAVES",
+          image:
+            "https://freshtodommot.com/cdn/shop/products/ugwu.jpg?v=1585827248",
         },
         {
           name: "¾ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "2 cups stock",
-          image: "IMAGE_URL_OF_STOCK",
+          image:
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "2 cups water",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "6 oz smoked/dried fish",
-          image: "IMAGE_URL_OF_SMOKED_FISH",
+          image:
+            "https://africanunique.com/cdn/shop/products/smokedcatfish_530x@2x.jpg?v=1609982165",
         },
         {
           name: "8 oz shrimp",
-          image: "IMAGE_URL_OF_SHRIMP",
+          image:
+            "https://cookanyday.com/cdn/shop/products/ANYDAY_Q1_20239463_grande.jpg?v=1672945401",
         },
         {
           name: "2 teaspoon ground crayfish",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            " https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 teaspoon bouillon powder (or maggi cubes)",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon salt (or to taste)",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1737,7 +1880,8 @@ const recipes = [
     mealName: "Bitter Leaf Soup",
     overview:
       "Bitter leaf soup is a popular, traditional soup enjoyed by different tribes in Nigeria. It can be eaten with various fufu dishes and is so healthy and satisfying!",
-    image: "IMAGE_URL_OF_BITTER_LEAF_SOUP",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2021/03/Bitter-Leaf-Soup-google-1-500x500.jpg",
 
     recipe: {
       instructions: [
@@ -1757,59 +1901,73 @@ const recipes = [
       ingredients: [
         {
           name: "4 cups bitter leaf (about 450g)",
-          image: "IMAGE_URL_OF_BITTER_LEAF",
+          image:
+            "https://motherlandharvest.com/cdn/shop/products/F0C6C0D5-2D76-441A-AFFF-7E927B7361FA.jpg?v=1674152003",
         },
         {
           name: "1 cup ground egusi seeds",
-          image: "IMAGE_URL_OF_EGUSI_SEEDS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d0/EGUSI.JPG",
         },
         {
           name: "1 lb beef (already cooked)",
-          image: "IMAGE_URL_OF_COOKED_BEEF",
+          image:
+            "https://www.eatingwellorganics.ca/cdn/shop/products/Beef-Stew-Beef.jpg?v=1623765042",
         },
         {
           name: "6 oz smoked catfish",
-          image: "IMAGE_URL_OF_SMOKED_CATFISH",
+          image:
+            "https://africanunique.com/cdn/shop/products/smokedcatfish_530x@2x.jpg?v=1609982165",
         },
         {
           name: "¾ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "1 roma tomato",
-          image: "IMAGE_URL_OF_TOMATO",
+          image:
+            "https://d2j6dbq0eux0bg.cloudfront.net/images/26774020/1363244751.jpg",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 cup stock",
-          image: "IMAGE_URL_OF_STOCK",
+          image:
+            "https://media01.stockfood.com/largepreviews/MzQyMTQzNDY2/11036886-2-1-2-Cups-of-Chicken-Broth-in-a-Measuring-Cup.jpg",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 teaspoon crayfish",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -1842,7 +2000,8 @@ const recipes = [
     mealName: "Goat Meat Pepper Soup",
     overview:
       "This goat meat pepper soup is a favorite Nigerian soup that is so nutritious and filling. It's heartwarming, ethnic flavors will cheer you up and soothe your soul!",
-    image: "IMAGE_URL_OF_GOAT_MEAT_PEPPER_SOUP",
+    image:
+      "https://i0.wp.com/www.goodmealtime.com/wp-content/uploads/2023/01/q4E0d6AsFPMtt23L.png?fit=1004%2C1008&ssl=1",
 
     recipe: {
       instructions: [
@@ -1865,39 +2024,48 @@ const recipes = [
       ingredients: [
         {
           name: "2 lbs goat meat",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "10 cups water",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
         {
           name: "1 tablespoon salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            " https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 teaspoon thyme",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "1 teaspoon bouillon",
-          image: "IMAGE_URL_OF_BOUILLON",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "2 tablespoons pepper soup spice",
-          image: "IMAGE_URL_OF_PEPPER_SOUP_SPICE",
+          image:
+            "https://www.gomarket.com.ng/wp-content/uploads/2020/05/Spice-Supreme-pepper-soup.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 tablespoon ground crayfish",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
       ],
     },
@@ -1925,7 +2093,7 @@ const recipes = [
     mealName: "Cow Foot Soup (Cow Heel Soup)",
     overview:
       "This cow foot soup (cow heel soup) recipe is a low carb version of the popular cow foot soup enjoyed in Africa and the Caribbean. It is very rich and nutritious and comes with a host of benefits!",
-    image: "IMAGE_URL_OF_COW_FOOT_SOUP",
+    image: "https://africanbites.com/wp-content/uploads/2014/11/IMG_9489-2.jpg",
 
     recipe: {
       instructions: [
@@ -1948,55 +2116,68 @@ const recipes = [
       ingredients: [
         {
           name: "3 lb cow feet",
-          image: "IMAGE_URL_OF_COW_FEET",
+          image:
+            "https://atasteozimboivyskitchenette.files.wordpress.com/2016/10/img_9941.jpg",
         },
         {
           name: "1 onion, chopped",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "¼ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "2 teaspoons arrowroot powder",
-          image: "IMAGE_URL_OF_ARROWROOT_POWDER",
+          image:
+            "https://skinfoodie.com.ng/wp-content/uploads/2019/11/Skin-food-arrow-root-powder.jpg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "½ red bell pepper, chopped",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "2 scallions, chopped",
-          image: "IMAGE_URL_OF_SCALLIONS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon crayfish (substitute with coconut aminos)",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "1 teaspoon thyme",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "1 teaspoon smoked paprika",
-          image: "IMAGE_URL_OF_SMOKED_PAPRIKA",
+          image:
+            "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/07/spspot2873.png?fit=512%2C512&ssl=1",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "½ teaspoon salt (or to taste)",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -2022,7 +2203,8 @@ const recipes = [
     mealName: "Cauliflower Fufu (Swallow)",
     overview:
       "This African low carb, keto cauliflower fufu (swallow) recipe goes perfectly well with egusi and all your favorite soups. Just 10 net carbs!",
-    image: "IMAGE_URL_OF_CAULIFLOWER_FUFU",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2018/04/African-Cauliflower-Fufu-swallow-homepage.jpg",
 
     recipe: {
       instructions: [
@@ -2040,15 +2222,18 @@ const recipes = [
       ingredients: [
         {
           name: "1 head cauliflower (medium) or 16oz frozen florets",
-          image: "IMAGE_URL_OF_CAULIFLOWER",
+          image:
+            "https://domf5oio6qrcr.cloudfront.net/medialibrary/5299/h1018g16207257715328.jpg",
         },
         {
           name: "2 tablespoons psyllium husk",
-          image: "IMAGE_URL_OF_PSYLLIUM_HUSK",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/A/V/214680_1695236342.jpg",
         },
         {
           name: "1 tablespoon palm oil (optional)",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
       ],
     },
@@ -2073,7 +2258,8 @@ const recipes = [
     mealName: "Coconut Fufu",
     overview:
       "Coconut Fufu is a low carb and nutritious African dish made from coconut flour. At only 12 net carbs, it is a delicious and healthy way to enjoy your favorite African soups!",
-    image: "IMAGE_URL_OF_COCONUT_FUFU",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDM0RoeIFbGSRHqyB517mL7sZtUqhNITC-pReTByF5_gDiV-uENW_4eC7WsjNRkV-Bfc&usqp=CAU",
     recipe: {
       instructions: [
         "1. Bring water to a boil in a pot.",
@@ -2086,15 +2272,18 @@ const recipes = [
       ingredients: [
         {
           name: "1 cup coconut flour (sifted)",
-          image: "IMAGE_URL_OF_COCONUT_FLOUR",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8S-lTUJOBUReDMpIW2ganlYTWlrpCgoffSQ&usqp=CAU",
         },
         {
           name: "1.5 tablespoons psyllium husk",
-          image: "IMAGE_URL_OF_PSYLLIUM_HUSK",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/A/V/214680_1695236342.jpg",
         },
         {
           name: "1.5 cups water",
-          image: "IMAGE_URL_OF_WATER",
+          image:
+            "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1283524975_sgbp6n.jpg",
         },
       ],
     },
@@ -2121,7 +2310,8 @@ const recipes = [
     mealName: "Eggplant Amala Fufu (Swallow)",
     overview:
       "Eggplant Amala Fufu is the perfect low carb replacement for the traditional Nigerian Fufu dish, which is very high in carbs. Enjoy this healthy and spicy dish with your favorite Nigerian soup!",
-    image: "IMAGE_URL_OF_EGGPLANT_AMALA_FUFU",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2019/04/Eggplant-Amala.jpg",
     recipe: {
       instructions: [
         "1. Boil some water in a large pot.",
@@ -2136,11 +2326,13 @@ const recipes = [
       ingredients: [
         {
           name: "2 Eggplants",
-          image: "IMAGE_URL_OF_EGGPLANTS",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/279/279359/two-eggplants-on-a-wooden-table.jpg",
         },
         {
           name: "2 tablespoons Psyllium Husk",
-          image: "IMAGE_URL_OF_PSYLLIUM_HUSK",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/A/V/214680_1695236342.jpg",
         },
       ],
     },
@@ -2163,7 +2355,8 @@ const recipes = [
     mealName: "Cabbage Fufu",
     overview:
       "Cabbage Fufu (also known as cabbage swallow) is a wonderful, keto alternative to Nigerian (African) fufu dishes. It makes a delicious and healthy meal when paired with your favorite African soups!",
-    image: "IMAGE_URL_OF_CABBAGE_FUFU",
+    image:
+      "https://img-global.cpcdn.com/recipes/d8b524d13c454e4a/680x482cq70/cabbage-fufu-cabbage-swallow-recipe-main-photo.jpg",
     recipe: {
       instructions: [
         "1. Chop the cabbage into medium-sized pieces and blend with a blender.",
@@ -2179,11 +2372,12 @@ const recipes = [
       ingredients: [
         {
           name: "1 green cabbage",
-          image: "IMAGE_URL_OF_GREEN_CABBAGE",
+          image: "https://ladgroup.org/wp-content/uploads/2020/12/p5.jpg",
         },
         {
           name: "2-3 tablespoons Psyllium husk",
-          image: "IMAGE_URL_OF_PSYLLIUM_HUSK",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/A/V/214680_1695236342.jpg",
         },
       ],
     },
@@ -2213,7 +2407,8 @@ const recipes = [
     mealName: "Almond Flour Fufu",
     overview:
       "Almond flour fufu is a quick and easy keto fufu that makes an excellent alternative to high carb fufu like eba and pounded yam. Eat it with any African soup for a satisfying low carb meal!",
-    image: "IMAGE_URL_OF_ALMOND_FLOUR_FUFU",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2020/08/Almond-Flour-Fufu-google-1.jpg",
     recipe: {
       instructions: [
         "1. Add one cup of water to a pot and turn on the heat.",
@@ -2227,11 +2422,13 @@ const recipes = [
       ingredients: [
         {
           name: "1 cup almond flour",
-          image: "IMAGE_URL_OF_ALMOND_FLOUR",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/P/S/176171_1638814694.jpg",
         },
         {
           name: "1.5 tablespoons psyllium husk",
-          image: "IMAGE_URL_OF_PSYLLIUM_HUSK",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/A/V/214680_1695236342.jpg",
         },
       ],
     },
@@ -2259,7 +2456,8 @@ const recipes = [
     mealName: "Snail Recipe (African Peppered Snails)",
     overview:
       "This delicious snail recipe (African peppered snails) sautéed with peppers, onions, and garlic, make a fantastic finger food or appetizer that will leave you licking your fingers!",
-    image: "IMAGE_URL_OF_SNAIL_RECIPE",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2023/08/African-Snail-Recipe-Peppered-Snails-IG.jpg",
     recipe: {
       instructions: [
         "1. To clean the snail:",
@@ -2284,51 +2482,63 @@ const recipes = [
       ingredients: [
         {
           name: "1 lb snails, de-shelled",
-          image: "IMAGE_URL_OF_SNAILS",
+          image:
+            "https://247foods.ng/public/uploads/1656344893-h-250-0001-29557593827_20220627_164527_0000.png",
         },
         {
           name: "½ red bell peppers",
-          image: "IMAGE_URL_OF_REDBELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "½ onions",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "2 cloves garlic",
-          image: "IMAGE_URL_OF_GARLIC",
+          image:
+            "https://www.health.com/thmb/FAT5LSHXPSScbsi50u9EUw22rlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-547276b9a356409eacef7284682b594a.jpg",
         },
         {
           name: "2 tablespoons olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 teaspoon crayfish (substitute with 1 tablespoon of fish sauce)",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "2 teaspoons bouillon",
-          image: "IMAGE_URL_OF_BOUILLON",
+          image:
+            " https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1 teaspoon salt (to cook)",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "1 lemon (to clean the snail)",
-          image: "IMAGE_URL_OF_LEMON",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lemon_-_whole_and_split.jpg/405px-Lemon_-_whole_and_split.jpg",
         },
       ],
     },
@@ -2362,7 +2572,8 @@ const recipes = [
     mealName: "Baked Whole Catfish",
     overview:
       "This Baked Whole Catfish is oven roasted and garnished with herbs and peppers for a tasty, healthy, low carb dish!",
-    image: "IMAGE_URL_OF_BAKED_WHOLE_CATFISH",
+    image:
+      "https://thetopmeal.com/wp-content/uploads/2020/09/baked-whole-catfish-in-oven-5-720x720.jpg",
     recipe: {
       instructions: [
         "1. Preheat oven to 400.",
@@ -2380,43 +2591,53 @@ const recipes = [
       ingredients: [
         {
           name: "1 catfish",
-          image: "IMAGE_URL_OF_CATFISH",
+          image:
+            "https://harvestselect.com/wp-content/uploads/2016/05/Harvest-Select-Catfish-Whole-Fish-2.jpg",
         },
         {
           name: "¼ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "½ red bell pepper",
-          image: "IMAGE_URL_OF_REDBELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "½ onions, chopped",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "2 garlic cloves, minced",
-          image: "IMAGE_URL_OF_GARLIC",
+          image:
+            "https://www.health.com/thmb/FAT5LSHXPSScbsi50u9EUw22rlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-547276b9a356409eacef7284682b594a.jpg",
         },
         {
           name: "½ teaspoon ginger root, chopped finely",
-          image: "IMAGE_URL_OF_GINGER",
+          image:
+            "https://files.nccih.nih.gov/ginger-thinkstockphotos-531052216-square.jpg",
         },
         {
           name: "1 habanero pepper",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "½ sprig thyme leaves",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://www.alphafoodie.com/wp-content/uploads/2021/02/How-to-Dry-Thyme-1-of-1.jpeg",
         },
         {
           name: "½ sprig dill",
-          image: "IMAGE_URL_OF_DILL",
+          image:
+            "https://scrummylane.com/wp-content/uploads/2022/09/fresh-dill.jpg",
         },
         {
           name: "1 sprig sage",
-          image: "IMAGE_URL_OF_SAGE",
+          image:
+            "https://h2.commercev3.net/cdn.gurneys.com/images/800/70000A.jpg",
         },
       ],
     },
@@ -2448,7 +2669,8 @@ const recipes = [
     mealName: "Instant Pot Boiled Peanuts",
     overview:
       "Enjoy these instant pot boiled peanuts as a healthy family snack during game day or movie nights. This spicy and salty snack is made with just a handful of spices, and using the instant pot is a time saver!",
-    image: "IMAGE_URL_OF_BOILED_PEANUTS",
+    image:
+      "https://southernbite.com/wp-content/uploads/2020/07/Instant-Pot-Boiled-Peanuts-3-500x500.jpg",
     recipe: {
       instructions: [
         "1. Rinse the peanuts and drain them in a colander.",
@@ -2462,29 +2684,27 @@ const recipes = [
       ingredients: [
         {
           name: "1 lb raw peanuts",
-          image: "IMAGE_URL_OF_RAW_PEANUTS",
+          image:
+            "IMhttps://ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/dd79402e574cd109-zm0UYLYi.jpg",
         },
         {
           name: "1 teaspoon crushed red pepper",
-          image: "IMAGE_URL_OF_CRUSHED_RED_PEPPER",
+          image: "https://m.media-amazon.com/images/I/81UnXBtkE-L._SL1500_.jpg",
         },
         {
           name: "1 teaspoon cayenne pepper",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "½ cup salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "1 teaspoon garlic powder",
-          image: "IMAGE_URL_OF_GARLIC_POWDER",
-        },
-      ],
-      equipment: [
-        {
-          name: "Instant Pot",
-          image: "IMAGE_URL_OF_INSTANT_POT",
+          image:
+            "https://www.health.com/thmb/FAT5LSHXPSScbsi50u9EUw22rlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-547276b9a356409eacef7284682b594a.jpg",
         },
       ],
     },
@@ -2518,7 +2738,8 @@ const recipes = [
     mealName: "Asun Recipe (Peppered Goat Meat)",
     overview:
       "Asun (Peppered Goat Meat) is a finger-licking, lip-smacking delicacy that is so delicious, you'll almost eat it all in one sitting!",
-    image: "IMAGE_URL_OF_ASUN_RECIPE",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2019/09/Asun-recipe-IG-1.jpg",
     recipe: {
       instructions: [
         "1. Preheat your oven to 350.",
@@ -2538,55 +2759,68 @@ const recipes = [
       ingredients: [
         {
           name: "1 lb goat meat",
-          image: "IMAGE_URL_OF_GOAT_MEAT",
+          image:
+            "https://www.excessrawfoods.com/wp-content/uploads/2019/11/goat-meat.jpeg",
         },
         {
           name: "¼ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "1 teaspoon red pepper flakes to garnish",
-          image: "IMAGE_URL_OF_RED_PEPPER_FLAKES",
+          image:
+            "https://oldworldgardenfarms.com/wp-content/uploads/2018/09/featured-red-pepper-flakes.jpg",
         },
         {
           name: "salt to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "2 tablespoon olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 cup green bell pepper chopped",
-          image: "IMAGE_URL_OF_GREEN_BELL_PEPPER",
+          image:
+            "https://www.stylecraze.com/wp-content/uploads/2013/09/2267-Best-Benefits-Of-Green-Pepper-For-Skin-Hair-And-Health-is.jpg",
         },
         {
           name: "1 cup red bell pepper chopped",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 cup yellow bell pepper chopped",
-          image: "IMAGE_URL_OF_YELLOW_BELL_PEPPER",
+          image:
+            "Ihttps://martking.ng/wp-content/uploads/2022/07/Martking-Online-Store-pepper.jpg",
         },
         {
           name: "1 habanero pepper chopped",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 teaspoon paprika",
-          image: "IMAGE_URL_OF_PAPRIKA",
+          image:
+            "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/07/spspot2873.png?fit=512%2C512&ssl=1",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://i5.walmartimages.com/asr/e13b1e9d-694c-4cbc-805a-0e7ff6099401.1935414d42c152ee37546a9d5c6a8edb.jpeg?odnHeight=768&odnWidth=768&odnBg=111111",
         },
         {
           name: "1 garlic clove",
-          image: "IMAGE_URL_OF_GARLIC_CLOVE",
+          image:
+            "https://www.health.com/thmb/FAT5LSHXPSScbsi50u9EUw22rlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-547276b9a356409eacef7284682b594a.jpg",
         },
       ],
     },
@@ -2618,7 +2852,8 @@ const recipes = [
     mealName: "Beef Liver Recipe",
     overview:
       "If you've never tried liver before, this classic beef liver recipe will make you fall in love with this superfood. Beef liver is one of the most nutritionally dense foods available, and calf liver topped with caramelized onions is both nutritious and delicious with a mild taste of liver.",
-    image: "IMAGE_URL_OF_BEEF_LIVER_RECIPE",
+    image:
+      "https://mommyshomecooking.com/wp-content/uploads/2018/02/Venezuelan-Liver-and-Onions-3.jpg",
     recipe: {
       instructions: [
         "1. If using beef liver, soak in milk for an hour or two, then pour the milk away.",
@@ -2636,35 +2871,43 @@ const recipes = [
       ingredients: [
         {
           name: "1 lb calf liver",
-          image: "IMAGE_URL_OF_CALF_LIVER",
+          image:
+            "https://rawandfresh.com.au/cdn/shop/articles/liver_banner_image.png?v=1655942929&width=1100",
         },
         {
           name: "1 onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "4 tablespoon olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 teaspoon garlic powder",
-          image: "IMAGE_URL_OF_GARLIC_POWDER",
+          image:
+            "https://www.health.com/thmb/FAT5LSHXPSScbsi50u9EUw22rlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-547276b9a356409eacef7284682b594a.jpg",
         },
         {
           name: "1 teaspoon onion powder",
-          image: "IMAGE_URL_OF_ONION_POWDER",
+          image:
+            "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/E/F/192416_1636232818.jpgR",
         },
         {
           name: "1 teaspoon smoked paprika",
-          image: "IMAGE_URL_OF_SMOKED_PAPRIKA",
+          image:
+            "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/07/spspot2873.png?fit=512%2C512&ssl=1",
         },
         {
           name: "1 teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1 teaspoon salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -2700,7 +2943,8 @@ const recipes = [
     mealName: "Peppered Gizzard",
     overview:
       "Peppered gizzard is a lip-smacking, mouthwatering delicacy that makes an excellent snack. If you have never tried gizzards before, this will make a believer out of you!",
-    image: "IMAGE_URL_OF_PEPPERED_GIZZARD",
+    image:
+      "https://cdn.shopify.com/s/files/1/0121/2950/1242/files/A3AFC3E2-C4E9-4BFA-A133-58ADD7F87262_480x480.jpg?v=1687170260",
     recipe: {
       instructions: [
         "1. Wash gizzards and boil for 15 minutes with some salt and black pepper.",
@@ -2720,51 +2964,63 @@ const recipes = [
       ingredients: [
         {
           name: "1.5 lbs gizzard",
-          image: "IMAGE_URL_OF_GIZZARD",
+          image:
+            "https://cdn11.bigcommerce.com/s-e132r1196t/images/stencil/1280x1280/products/1762/2426/gizzard_raw__96111.1559233089.1280.1280__66331.1585176209.1280.1280__59050.1589852643.jpg?c=2",
         },
         {
           name: "½ cup olive oil",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
         {
           name: "1 red bell pepper",
-          image: "IMAGE_URL_OF_RED_BELL_PEPPER",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
         },
         {
           name: "1 habanero pepper or use ½",
-          image: "IMAGE_URL_OF_HABANERO_PEPPER",
+          image:
+            "https://www.livingseedcompany.com/cdn/shop/products/habanero-pepper-capsicum-chinense-694660.png?v=1702656028",
         },
         {
           name: "1 cup onions chopped",
-          image: "IMAGE_URL_OF_ONIONS",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
         {
           name: "1 teaspoon bouillon powder",
-          image: "IMAGE_URL_OF_BOUILLON_POWDER",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
         },
         {
           name: "½ teaspoon thyme",
-          image: "IMAGE_URL_OF_THYME",
+          image:
+            "https://rachelsspicecompany.com/wp-content/uploads/2018/03/ThymeLeaf.jpg",
         },
         {
           name: "½ teaspoon black pepper",
-          image: "IMAGE_URL_OF_BLACK_PEPPER",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
         },
         {
           name: "1/4 teaspoon cayenne pepper omit to reduce the heat",
-          image: "IMAGE_URL_OF_CAYENNE_PEPPER",
+          image:
+            "https://bonnieplants.com/cdn/shop/products/061422_T118630_202033_Bonnie_HotCayennePepper_ALT_02.jpg?v=1656010754&width=1000",
         },
         {
           name: "½ teaspoon salt or to taste",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
         {
           name: "scallions optional garnish",
-          image: "IMAGE_URL_OF_SCALLIONS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
         },
         {
           name: "more olive oil for frying the gizzard",
-          image: "IMAGE_URL_OF_OLIVE_OIL",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
         },
       ],
     },
@@ -2796,7 +3052,8 @@ const recipes = [
     mealName: "Nigerian Native Jollof Rice (Keto Version)",
     overview:
       "Enjoy this delicious, low carb, cauliflower palm oil rice, spiced with mouthwatering African spices. Just 1g net carb!",
-    image: "IMAGE_URL_OF_JOLLOF_RICE",
+    image:
+      "https://lowcarbafrica.com/wp-content/uploads/2019/03/Cauliflower-Local-Jollof-Rice-IG-1.jpg",
     recipe: {
       instructions: [
         "1. If using smoked catfish and Iru, soak in hot water for 5 minutes.",
@@ -2812,27 +3069,33 @@ const recipes = [
       ingredients: [
         {
           name: "1 riced cauliflower",
-          image: "IMAGE_URL_OF_CAULIFLOWER",
+          image:
+            "https://domf5oio6qrcr.cloudfront.net/medialibrary/5299/h1018g16207257715328.jpg",
         },
         {
           name: "¼ cup palm oil",
-          image: "IMAGE_URL_OF_PALM_OIL",
+          image:
+            "https://www.supermart.ng/cdn/shop/files/omkt91106.jpg?v=1692003531",
         },
         {
           name: "2 tablespoon crayfish",
-          image: "IMAGE_URL_OF_CRAYFISH",
+          image:
+            "https://housefood.africa/wp-content/uploads/2022/02/crayfish.jpg",
         },
         {
           name: "10 pieces Iru locust bean seeds",
-          image: "IMAGE_URL_OF_IRU",
+          image:
+            "https://guardian.ng/wp-content/uploads/2016/01/dawadawa-Locust-Beans1.jpg",
         },
         {
           name: "1 Smoked catfish",
-          image: "IMAGE_URL_OF_SMOKED_CATFISH",
+          image:
+            "https://africanunique.com/cdn/shop/products/smokedcatfish_530x@2x.jpg?v=1609982165",
         },
         {
           name: "½ onion",
-          image: "IMAGE_URL_OF_ONION",
+          image:
+            "https://as2.ftcdn.net/v2/jpg/02/94/20/65/1000_F_294206555_6brCSze7hgSF7Fcx4irETGJCgt3oxFBt.jpg",
         },
       ],
     },
@@ -2865,7 +3128,8 @@ const recipes = [
     mealName: "Keto Avocado Smoothie",
     overview:
       "This creamy and silky smooth keto avocado smoothie makes an excellent breakfast or midday snack. It is gluten-free, dairy-free and sugar-free!",
-    image: "IMAGE_URL_OF_AVOCADO_SMOOTHIE",
+    image:
+      "https://thebigmansworld.com/wp-content/uploads/2020/12/keto-avocado-smoothie4.jpg",
     recipe: {
       instructions: [
         "1. Add all the ingredients to a high powered blender.",
@@ -2875,27 +3139,33 @@ const recipes = [
       ingredients: [
         {
           name: "1 avocado",
-          image: "IMAGE_URL_OF_AVOCADO",
+          image:
+            "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/07/Stocksy_txpa387b205vt9300_Medium_3358820_thumb-732x549.jpg",
         },
         {
           name: "1 teaspoon vanilla extract",
-          image: "IMAGE_URL_OF_VANILLA_EXTRACT",
+          image:
+            "https://www.rodellekitchen.com/wp-content/uploads/2018/04/08598122804-1-scaled.webp",
         },
         {
           name: "1 -2 tablespoon monk fruit sweetener",
-          image: "IMAGE_URL_OF_MONK_FRUIT_SWEETENER",
+          image:
+            "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/711bpHe4RgL._SL1280_.jpg",
         },
         {
           name: "1 cup almond milk",
-          image: "IMAGE_URL_OF_ALMOND_MILK",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
         },
         {
           name: "1 tablespoon peanut butter",
-          image: "IMAGE_URL_OF_PEANUT_BUTTER",
+          image:
+            "https://img.livestrong.com/-/clsd/getty/650fceadf35548cb89ad2b3c164ba36c.jpg",
         },
         {
           name: "A handful of ice",
-          image: "IMAGE_URL_OF_ICE",
+          image:
+            "https://cdn.pixabay.com/photo/2021/04/28/23/58/ice-6215207_640.jpg",
         },
       ],
     },
@@ -2927,7 +3197,8 @@ const recipes = [
     mealName: "Strawberry Spinach Smoothie",
     overview:
       "Start your day right with this creamy strawberry spinach smoothie recipe. This healthy smoothie takes a minute to throw together and makes a quick keto breakfast or perfect snack!",
-    image: "IMAGE_URL_OF_STRAWBERRY_SPINACH_SMOOTHIE",
+    image:
+      "https://i1.wp.com/thewimpyvegetarian.com/wp-content/uploads/2022/06/Spinach-and-Strawberry-Smoothie-1.jpg",
     recipe: {
       instructions: [
         "1. Add the almond milk and heavy whipping cream to a blender or nutribullet.",
@@ -2938,27 +3209,33 @@ const recipes = [
       ingredients: [
         {
           name: "¾ cup frozen strawberries",
-          image: "IMAGE_URL_OF_FROZEN_STRAWBERRIES",
+          image:
+            "https://www.foodandwine.com/thmb/tfqE6pWWvkpYafhY1u91LE6yRtY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Frozen-Strawberries-FT-BLOG0623-729a216a8456465d92c4ecf4888b6a1f.jpgS",
         },
         {
           name: "1 cup spinach",
-          image: "IMAGE_URL_OF_SPINACH",
+          image:
+            "https://hips.hearstapps.com/hmg-prod/images/spinach-1521576635.jpg",
         },
         {
           name: "1 cup almond milk",
-          image: "IMAGE_URL_OF_ALMOND_MILK",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
         },
         {
           name: "¼ cup heavy cream",
-          image: "IMAGE_URL_OF_HEAVY_CREAM",
+          image:
+            "https://ketopots.com/wp-content/uploads/2020/02/5a-keto-whipped-cream.jpg",
         },
         {
           name: "1 teaspoon vanilla extract",
-          image: "IMAGE_URL_OF_VANILLA_EXTRACT",
+          image:
+            "https://www.rodellekitchen.com/wp-content/uploads/2018/04/08598122804-1-scaled.webp",
         },
         {
           name: "1 tablespoon monk fruit sweetener",
-          image: "IMAGE_URL_OF_MONK_FRUIT_SWEETENER",
+          image:
+            "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/711bpHe4RgL._SL1280_.jpg",
         },
       ],
     },
@@ -2989,7 +3266,8 @@ const recipes = [
     mealName: "Keto Chocolate Protein Shake",
     overview:
       "This keto chocolate protein shake makes a refreshing breakfast or dessert that is nutritious, filling, and keeps hunger at bay! Plus, it has a whopping 31 grams of protein and is a great way to fuel your day on a keto diet.",
-    image: "IMAGE_URL_OF_KETO_CHOCOLATE_PROTEIN_SHAKE",
+    image:
+      "https://lowcarbyum.com/wp-content/uploads/2020/09/keto-frosty-chocolate-shake-recipe-l.jpg",
     recipe: {
       instructions: [
         "1. Add the almond milk first, then add the other ingredients.",
@@ -2999,35 +3277,43 @@ const recipes = [
       ingredients: [
         {
           name: "1 scoop protein powder (approx 2 tbsp)",
-          image: "IMAGE_URL_OF_PROTEIN_POWDER",
+          image:
+            "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5766032/1.jpg?0069",
         },
         {
           name: "1 tablespoon cacao powder",
-          image: "IMAGE_URL_OF_CACAO_POWDER",
+          image:
+            "https://image.makewebeasy.net/makeweb/m_1920x0/PwajjYvAA/228150/1.jpg",
         },
         {
           name: "1 teaspoon vanilla extract",
-          image: "IMAGE_URL_OF_VANILLA_EXTRACT",
+          image:
+            "https://www.rodellekitchen.com/wp-content/uploads/2018/04/08598122804-1-scaled.webp",
         },
         {
           name: "2 tablespoon monk fruit sweetener",
-          image: "IMAGE_URL_OF_MONK_FRUIT_SWEETENER",
+          image:
+            "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/711bpHe4RgL._SL1280_.jpg",
         },
         {
           name: "1 cup almond milk (unsweetened)",
-          image: "IMAGE_URL_OF_ALMOND_MILK",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
         },
         {
           name: "¼ cup heavy whipping cream",
-          image: "IMAGE_URL_OF_HEAVY_WHIPPING_CREAM",
+          image:
+            "https://ketopots.com/wp-content/uploads/2020/02/5a-keto-whipped-cream.jpg",
         },
         {
           name: "1 tablespoon almond butter",
-          image: "IMAGE_URL_OF_ALMOND_BUTTER",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
         },
         {
           name: "pinch of salt",
-          image: "IMAGE_URL_OF_SALT",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
         },
       ],
     },
@@ -3058,7 +3344,8 @@ const recipes = [
     mealName: "Low Carb Lemon Smoothie",
     overview:
       "This low carb lemon smoothie is like sunshine in a glass! It's the perfect drink for the summer and is sugar-free, LCHF, and keto-friendly.",
-    image: "IMAGE_URL_OF_LOW_CARB_LEMON_SMOOTHIE",
+    image:
+      "https://stepawayfromthecarbs.com/wp-content/uploads/2019/05/low-carb-lemon-smoothie-3-480x360.jpg",
     recipe: {
       instructions: [
         "1. Add the low carb vanilla yogurt to a blender, together with the ice cubes, the zest and juice of one lemon, heavy cream, and turmeric.",
@@ -3068,27 +3355,33 @@ const recipes = [
       ingredients: [
         {
           name: "1 cup Two Good Vanilla Yogurt",
-          image: "IMAGE_URL_OF_TWO_GOOD_VANILLA_YOGURT",
+          image:
+            "https://farmfreshng.com/wp-content/uploads/2020/05/Farmfresh-Yoghurt-Vanilla-500ml.jpg",
         },
         {
           name: "½ cup ice",
-          image: "IMAGE_URL_OF_ICE",
+          image:
+            "https://cdn.pixabay.com/photo/2021/04/28/23/58/ice-6215207_640.jpg",
         },
         {
           name: "¼ cup heavy cream",
-          image: "IMAGE_URL_OF_HEAVY_CREAM",
+          image:
+            "https://ketopots.com/wp-content/uploads/2020/02/5a-keto-whipped-cream.jpg",
         },
         {
           name: "zest and juice of 1 lemon",
-          image: "IMAGE_URL_OF_LEMON",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lemon_-_whole_and_split.jpg/405px-Lemon_-_whole_and_split.jpg",
         },
         {
           name: "⅛ tsp turmeric",
-          image: "IMAGE_URL_OF_TURMERIC",
+          image:
+            "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2018/10/turmeric.jpg",
         },
         {
           name: "1 tbs low carb simple syrup (optional)",
-          image: "IMAGE_URL_OF_LOW_CARB_SIMPLE_SYRUP",
+          image:
+            "https://www.u-buy.com.ng/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFNVUxBSFZvTEwuX1NMMTUwMF8uanBn.jpg",
         },
       ],
     },
@@ -3117,7 +3410,8 @@ const recipes = [
     mealName: "Green Detox Keto Smoothie",
     overview:
       "Revitalize your day with this Green Detox Keto Smoothie. Packed with the goodness of kale, fresh mint, avocado, fennel, and more, this unsweetened, low-carb smoothie is a refreshing treat for your body and taste buds.",
-    image: "IMAGE_URL_OF_GREEN_DETOX_KETO_SMOOTHIE",
+    image:
+      "https://www.sugarfreemom.com/wp-content/uploads/2016/06/green-tea-detox-smoothie1-1-of-1.jpg",
     recipe: {
       instructions: [
         "1. Scoop the avocado flesh out and place all ingredients into a high-speed blender.",
@@ -3127,39 +3421,48 @@ const recipes = [
       ingredients: [
         {
           name: "Handful / 15g kale",
-          image: "IMAGE_URL_OF_KALE",
+          image:
+            "https://www.shutterstock.com/image-photo/bunch-organic-kale-on-rustic-600nw-291502316.jpg",
         },
         {
           name: "Handful / 10g fresh mint leaves, picked",
-          image: "IMAGE_URL_OF_MINT_LEAVES",
+          image:
+            "https://plantura.garden/uk/wp-content/uploads/sites/2/2021/04/store-fresh-mint.jpg",
         },
         {
           name: "½ avocado",
-          image: "IMAGE_URL_OF_AVOCADO",
+          image:
+            "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/07/Stocksy_txpa387b205vt9300_Medium_3358820_thumb-732x549.jpg",
         },
         {
           name: "¼ / 50g fennel or 1 celery stick",
-          image: "IMAGE_URL_OF_FENNEL_OR_CELERY",
+          image:
+            "https://www.dadcooksdinner.com/wp-content/uploads/2020/03/Stalk-of-Celery-vs-Rib-of-Celery-2020-03-03-Celery-Stalk-vs-Rib0391-1920x.jpg",
         },
         {
           name: "¼ small cucumber (100g)",
-          image: "IMAGE_URL_OF_CUCUMBER",
+          image:
+            "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2445929.png",
         },
         {
           name: "1 tablespoon protein powder unsweetened",
-          image: "IMAGE_URL_OF_PROTEIN_POWDER",
+          image:
+            "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5766032/1.jpg?0069",
         },
         {
           name: "1 cup / 240 ml almond milk unsweetened",
-          image: "IMAGE_URL_OF_ALMOND_MILK",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
         },
         {
           name: "1 tablespoon almond butter",
-          image: "IMAGE_URL_OF_ALMOND_BUTTER",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
         },
         {
           name: "½ lemon, juiced",
-          image: "IMAGE_URL_OF_LEMON",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
         },
       ],
     },
@@ -3183,7 +3486,8 @@ const recipes = [
     mealName: "Keto Avocado Chocolate Smoothie",
     overview:
       "Indulge in the creamy goodness of this Keto Avocado Chocolate Smoothie, a perfect blend of healthy fats and protein. Whether for breakfast or as a snack, this vegan and keto-friendly smoothie is a delightful treat with just 5 simple ingredients - almond milk, nut butter, cocoa powder, sweetener, and avocado.",
-    image: "IMAGE_URL_OF_KETO_AVOCADO_CHOCOLATE_SMOOTHIE",
+    image:
+      "https://www.peelwithzeal.com/wp-content/uploads/2021/01/chocolate-avocado-smoothie-vegan.jpg",
     recipe: {
       instructions: [
         "1. Add all ingredients to a high-powered blender and mix.",
@@ -3193,24 +3497,29 @@ const recipes = [
       ],
       ingredients: [
         {
-          name: "Almond milk - unsweetened almond milk is best, but coconut milk and cashew milk will also work. Macadamia nut milk is another excellent dairy-free milk.",
-          image: "IMAGE_URL_OF_ALMOND_MILK",
+          name: "Almond milk",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
         },
         {
-          name: "Almond butter - use natural almond butter, but you can also substitute any nut butter",
-          image: "IMAGE_URL_OF_ALMOND_BUTTER",
+          name: "Almond butter",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
         },
         {
-          name: "Avocado - slightly softened and fully ripe avocado for the best flavor and texture",
-          image: "IMAGE_URL_OF_AVOCADO",
+          name: "Avocado",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
         },
         {
-          name: "Unsweetened cocoa powder - Dutch-processed is best for that rich, dark chocolate flavor; also may be called cacao powder",
-          image: "IMAGE_URL_OF_COCOA_POWDER",
+          name: "Unsweetened cocoa powder",
+          image:
+            "https://image.makewebeasy.net/makeweb/m_1920x0/PwajjYvAA/228150/1.jpg",
         },
         {
-          name: "Liquid stevia - also known as stevia extract; may use stevia powder, a few drops of liquid stevia are all that is needed to add subtle sweetness.",
-          image: "IMAGE_URL_OF_LIQUID_STEVIA",
+          name: "Liquid stevia",
+          image:
+            "https://images-cdn.ubuy.co.in/650342635574e60d41500149-organic-liquid-stevia-sweetener-alcohol.jpg",
         },
       ],
     },
@@ -3227,7 +3536,8 @@ const recipes = [
       fiber: "3g",
       sugar: "1g",
     },
-    originalSource: "https://www.seasonalcravings.com/keto-avocado-chocolate-smoothie/#nutrition",
+    originalSource:
+      "https://www.seasonalcravings.com/keto-avocado-chocolate-smoothie/#nutrition",
   },
 
   // Add more recipes following the same structure

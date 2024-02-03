@@ -5,15 +5,16 @@ import Search from "./components/Search";
 import Meals from "./components/Meals";
 import Modal from "./components/Modal";
 
-
 function App() {
   return (
     <>
       <Header />
-      {/* <Favorites /> */}
-      {/* <Search /> */}
-      <Meals />
-      {/* <Modal /> */}
+      <div className="wrapper">
+        <Search />
+        {/* <Favorites /> */}
+        <Meals />
+        {/* <Modal /> */}
+      </div>
     </>
   );
 }
