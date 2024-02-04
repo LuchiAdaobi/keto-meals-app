@@ -7,21 +7,31 @@ function AppProvider({ children }) {
   // STATE
   const [meals, setMeals] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [randomMeal, setRandomMeal] = useState(null);
+  const [loading, setLoading] = useState(true);
+  //   const [isInitialLoad, setIsInitialLoad] = useState(true);
 
   // VARIABLES
   const allMeals = recipes;
-  const randomMeal = [];
 
   // USEEFFECT
   useEffect(() => {
-    setMeals(allMeals);
-  }, []);
+    setTimeout(() => {
+      setMeals(allMeals);
+      setLoading(false);
+    }, 1000);
+  }, [allMeals]);
 
   useEffect(() => {
-    // fetchMeals(`${allMeals}${searchTerm}`)
     if (!searchTerm) return;
-    handleSearch()
+    handleSearch();
   }, [searchTerm, allMeals]);
+
+
+  useEffect(() => {
+    if (meals.length === 0) return;
+    getRandomMeal();
+  }, []);
 
   // FUNCTIONS
   function handleSearch() {
@@ -31,12 +41,28 @@ function AppProvider({ children }) {
     setMeals(filteredMeals);
   }
 
-  // function handleSearch(id){
-  //     const searchResults = meals.find(meal => )
-  // }
+  function getRandomMeal() {
+    if (meals.length === 0) return
+
+    const randomIndex = Math.floor(Math.random() * meals.length);
+    const selectedRandomMeal = meals[randomIndex];
+    setRandomMeal(selectedRandomMeal);
+    console.log(selectedRandomMeal)
+    return selectedRandomMeal;
+  }
 
   return (
-    <AppContext.Provider value={{ meals, setSearchTerm }}>
+    <AppContext.Provider
+      value={{
+        meals,
+        setMeals,
+        setSearchTerm,
+        getRandomMeal,
+        loading,
+        randomMeal,
+        // setIsInitialLoad,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

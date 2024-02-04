@@ -195,7 +195,7 @@ const recipes = [
     prepTime: "5 minutes",
     cookTime: "50 minutes",
     totalTime: "55 minutes",
-    prepLevel: "Mid",
+    prepLevel: "Med",
     nutritionalFacts: {
       calories: 203,
       servings: 8,
@@ -492,7 +492,7 @@ const recipes = [
     prepTime: "20 minutes",
     cookTime: "15 minutes",
     totalTime: "35 minutes",
-    prepLevel: "Mid",
+    prepLevel: "Med",
     nutritionalFacts: {
       calories: 180,
       servings: 8,
@@ -703,7 +703,7 @@ const recipes = [
     prepTime: "10 minutes",
     cookTime: "40 minutes",
     totalTime: "50 minutes",
-    prepLevel: "Mid",
+    prepLevel: "Med",
     nutritionalFacts: {
       calories: 186,
       servings: 8,
