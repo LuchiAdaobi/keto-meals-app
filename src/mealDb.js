@@ -106,6 +106,84 @@ const recipes = [
     originalSource:
       "https://lowcarbafrica.com/nigerian-cauliflower-jollof-rice/",
   },
+
+  {
+    id: 37,
+    mealName: "Green Detox Keto Smoothie",
+    overview:
+      "Revitalize your day with this Green Detox Keto Smoothie. Packed with the goodness of kale, fresh mint, avocado, fennel, and more, this unsweetened, low-carb smoothie is a refreshing treat for your body and taste buds.",
+    image:
+      "https://www.sugarfreemom.com/wp-content/uploads/2016/06/green-tea-detox-smoothie1-1-of-1.jpg",
+    recipe: {
+      instructions: [
+        "1. Scoop the avocado flesh out and place all ingredients into a high-speed blender.",
+        "2. Blend until smooth.",
+        "3. Adjust thickness by adding more almond milk if desired.",
+      ],
+      ingredients: [
+        {
+          name: "Handful / 15g kale",
+          image:
+            "https://www.shutterstock.com/image-photo/bunch-organic-kale-on-rustic-600nw-291502316.jpg",
+        },
+        {
+          name: "Handful / 10g fresh mint leaves, picked",
+          image:
+            "https://plantura.garden/uk/wp-content/uploads/sites/2/2021/04/store-fresh-mint.jpg",
+        },
+        {
+          name: "½ avocado",
+          image:
+            "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/07/Stocksy_txpa387b205vt9300_Medium_3358820_thumb-732x549.jpg",
+        },
+        {
+          name: "¼ / 50g fennel or 1 celery stick",
+          image:
+            "https://www.dadcooksdinner.com/wp-content/uploads/2020/03/Stalk-of-Celery-vs-Rib-of-Celery-2020-03-03-Celery-Stalk-vs-Rib0391-1920x.jpg",
+        },
+        {
+          name: "¼ small cucumber (100g)",
+          image:
+            "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2445929.png",
+        },
+        {
+          name: "1 tablespoon protein powder unsweetened",
+          image:
+            "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5766032/1.jpg?0069",
+        },
+        {
+          name: "1 cup / 240 ml almond milk unsweetened",
+          image:
+            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
+        },
+        {
+          name: "1 tablespoon almond butter",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
+        },
+        {
+          name: "½ lemon, juiced",
+          image:
+            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
+        },
+      ],
+    },
+    course: "Beverage",
+    prepTime: "5 minutes",
+    totalTime: "5 minutes",
+    prepLevel: "Easy",
+    servings: 1,
+    nutritionalFacts: {
+      calories: 137,
+      totalCarbohydrates: "7.7g",
+      protein: "5.6g",
+      fat: "10g",
+      fiber: "4.7g",
+      sugar: "1.7g",
+    },
+    originalSource: "https://sugarfreelondoner.com/keto-green-smoothie/",
+  },
+
   {
     id: 2,
     mealName: "Nigerian Turkey Stew",
@@ -218,6 +296,91 @@ const recipes = [
     },
     originalSource: "https://lowcarbafrica.com/nigerian-turkey-stew/",
   },
+
+  {
+    id: 4,
+    mealName: "Cabbage Rice",
+    overview:
+      "Cabbage rice (also known as riced cabbage) is a quick, easy, and savory side dish and is a great alternative to cauliflower rice with only 7 net carbs! You can easily double it up for a full, satisfying, and nutritious meal.",
+    image:
+      "https://thymeandlove.com/wp-content/uploads/2021/09/vegan-fried-rice-720x720.jpg",
+
+    recipe: {
+      instructions: [
+        "1. Wash the cabbage and pat dry.",
+        "2. Chop the cabbage and place in the food processor.",
+        "3. Use the chop function to shred it into smaller pieces.",
+        "4. Chop the red bell pepper and scallions into small pieces.",
+        "5. Heat the olive oil in a large skillet, then add the bell pepper and scallions and stir for a minute or two on medium-low heat.",
+        "6. Add the cabbage, salt, black pepper, and bouillon powder and stir till it begins to soften.",
+        "7. Stir and leave on medium heat for 5 minutes.",
+        "8. Serve & enjoy!",
+      ],
+      ingredients: [
+        {
+          name: "½ cabbage medium",
+          image: "https://ladgroup.org/wp-content/uploads/2020/12/p5.jpg",
+        },
+        {
+          name: "2 tablespoon olive oil",
+          image:
+            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
+        },
+        {
+          name: "1 red bell pepper",
+          image:
+            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
+        },
+        {
+          name: "1 bunch scallion",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
+        },
+        {
+          name: "½ tablespoon bouillon powder",
+          image:
+            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
+        },
+        {
+          name: "½ teaspoon salt to taste",
+          image:
+            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
+        },
+        {
+          name: "1 teaspoon black pepper",
+          image:
+            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
+        },
+      ],
+    },
+    course: "Snack, Side Dishes and Appetizer",
+    prepTime: "10 minutes",
+    cookTime: "10 minutes",
+    totalTime: "20 minutes",
+    prepLevel: "Easy",
+    nutritionalFacts: {
+      calories: 177,
+      servings: 3,
+      fat: "14g",
+      protein: "3g",
+      carbs: "12g",
+      SaturatedFat: "2g",
+      PolyunsaturatedFat: "2g",
+      MonounsaturatedFat: "10g",
+      Cholesterol: "1mg",
+      Sodium: "634mg",
+      Potassium: "365mg",
+      Fiber: "5g",
+      Sugar: "7g",
+      VitaminA: "1434IU",
+      VitaminC: "107mg",
+      Calcium: "70mg",
+      Iron: "1mg",
+    },
+    originalSource:
+      "https://lowcarbafrica.com/riced-cabbage-low-carb-side-dish/",
+  },
+
   {
     id: 3,
     mealName: "Croaker Fish (Nigerian Peppered Fish)",
@@ -324,89 +487,89 @@ const recipes = [
     },
     originalSource: "https://lowcarbafrica.com/peppered-croaker-fish/",
   },
-  {
-    id: 4,
-    mealName: "Cabbage Rice",
-    overview:
-      "Cabbage rice (also known as riced cabbage) is a quick, easy, and savory side dish and is a great alternative to cauliflower rice with only 7 net carbs! You can easily double it up for a full, satisfying, and nutritious meal.",
-    image:
-      "https://thymeandlove.com/wp-content/uploads/2021/09/vegan-fried-rice-720x720.jpg",
+//   {
+//     id: 4,
+//     mealName: "Cabbage Rice",
+//     overview:
+//       "Cabbage rice (also known as riced cabbage) is a quick, easy, and savory side dish and is a great alternative to cauliflower rice with only 7 net carbs! You can easily double it up for a full, satisfying, and nutritious meal.",
+//     image:
+//       "https://thymeandlove.com/wp-content/uploads/2021/09/vegan-fried-rice-720x720.jpg",
 
-    recipe: {
-      instructions: [
-        "1. Wash the cabbage and pat dry.",
-        "2. Chop the cabbage and place in the food processor.",
-        "3. Use the chop function to shred it into smaller pieces.",
-        "4. Chop the red bell pepper and scallions into small pieces.",
-        "5. Heat the olive oil in a large skillet, then add the bell pepper and scallions and stir for a minute or two on medium-low heat.",
-        "6. Add the cabbage, salt, black pepper, and bouillon powder and stir till it begins to soften.",
-        "7. Stir and leave on medium heat for 5 minutes.",
-        "8. Serve & enjoy!",
-      ],
-      ingredients: [
-        {
-          name: "½ cabbage medium",
-          image: "https://ladgroup.org/wp-content/uploads/2020/12/p5.jpg",
-        },
-        {
-          name: "2 tablespoon olive oil",
-          image:
-            "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
-        },
-        {
-          name: "1 red bell pepper",
-          image:
-            "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
-        },
-        {
-          name: "1 bunch scallion",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
-        },
-        {
-          name: "½ tablespoon bouillon powder",
-          image:
-            "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
-        },
-        {
-          name: "½ teaspoon salt to taste",
-          image:
-            "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
-        },
-        {
-          name: "1 teaspoon black pepper",
-          image:
-            "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
-        },
-      ],
-    },
-    course: "Snack, Side Dishes and Appetizer",
-    prepTime: "10 minutes",
-    cookTime: "10 minutes",
-    totalTime: "20 minutes",
-    prepLevel: "Easy",
-    nutritionalFacts: {
-      calories: 177,
-      servings: 3,
-      fat: "14g",
-      protein: "3g",
-      carbs: "12g",
-      SaturatedFat: "2g",
-      PolyunsaturatedFat: "2g",
-      MonounsaturatedFat: "10g",
-      Cholesterol: "1mg",
-      Sodium: "634mg",
-      Potassium: "365mg",
-      Fiber: "5g",
-      Sugar: "7g",
-      VitaminA: "1434IU",
-      VitaminC: "107mg",
-      Calcium: "70mg",
-      Iron: "1mg",
-    },
-    originalSource:
-      "https://lowcarbafrica.com/riced-cabbage-low-carb-side-dish/",
-  },
+//     recipe: {
+//       instructions: [
+//         "1. Wash the cabbage and pat dry.",
+//         "2. Chop the cabbage and place in the food processor.",
+//         "3. Use the chop function to shred it into smaller pieces.",
+//         "4. Chop the red bell pepper and scallions into small pieces.",
+//         "5. Heat the olive oil in a large skillet, then add the bell pepper and scallions and stir for a minute or two on medium-low heat.",
+//         "6. Add the cabbage, salt, black pepper, and bouillon powder and stir till it begins to soften.",
+//         "7. Stir and leave on medium heat for 5 minutes.",
+//         "8. Serve & enjoy!",
+//       ],
+//       ingredients: [
+//         {
+//           name: "½ cabbage medium",
+//           image: "https://ladgroup.org/wp-content/uploads/2020/12/p5.jpg",
+//         },
+//         {
+//           name: "2 tablespoon olive oil",
+//           image:
+//             "https://content.instructables.com/F5R/Y0H0/IHVVPRS6/F5RY0H0IHVVPRS6.jpg?auto=webp&frame=1&width=320&md=a3d3b3b73ae688ac87e75fbee681be91",
+//         },
+//         {
+//           name: "1 red bell pepper",
+//           image:
+//             "https://i5.walmartimages.com/seo/Fresh-Red-Bell-Pepper-1-Each_7be94a8e-9a5d-4f87-842f-5fe4084138ba.c95d36e140f5e0d492ca632b42e4543c.jpeg",
+//         },
+//         {
+//           name: "1 bunch scallion",
+//           image:
+//             "https://upload.wikimedia.org/wikipedia/commons/d/da/CSA-Red-Spring-Onions.jpg",
+//         },
+//         {
+//           name: "½ tablespoon bouillon powder",
+//           image:
+//             "https://www.mapleandmango.com/wp-content/uploads/2021/09/bouillon-powder-in-jar.jpg",
+//         },
+//         {
+//           name: "½ teaspoon salt to taste",
+//           image:
+//             "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322745/salt-shaker.jpg",
+//         },
+//         {
+//           name: "1 teaspoon black pepper",
+//           image:
+//             "https://as1.ftcdn.net/v2/jpg/02/79/24/98/1000_F_279249862_iO0LUG8l16W0vvW3Aw16TYCxLuUwTAk2.jpg",
+//         },
+//       ],
+//     },
+//     course: "Snack, Side Dishes and Appetizer",
+//     prepTime: "10 minutes",
+//     cookTime: "10 minutes",
+//     totalTime: "20 minutes",
+//     prepLevel: "Easy",
+//     nutritionalFacts: {
+//       calories: 177,
+//       servings: 3,
+//       fat: "14g",
+//       protein: "3g",
+//       carbs: "12g",
+//       SaturatedFat: "2g",
+//       PolyunsaturatedFat: "2g",
+//       MonounsaturatedFat: "10g",
+//       Cholesterol: "1mg",
+//       Sodium: "634mg",
+//       Potassium: "365mg",
+//       Fiber: "5g",
+//       Sugar: "7g",
+//       VitaminA: "1434IU",
+//       VitaminC: "107mg",
+//       Calcium: "70mg",
+//       Iron: "1mg",
+//     },
+//     originalSource:
+//       "https://lowcarbafrica.com/riced-cabbage-low-carb-side-dish/",
+//   },
   {
     id: 5,
     mealName: "Eggplant Chicken Stew",
@@ -1631,7 +1794,7 @@ const recipes = [
     overview:
       "Fish pepper soup is a soothing West African Pepper Soup, made with just a few ingredients - catfish, vegetables, and spices.",
     image:
-      "https://lagosbukagrillandbar.com/wp-content/uploads/2021/07/Catfish-Peppersoup.jpegIMAGE_URL_OF_FISH_PEPPER_SOUP",
+      "https://lagosbukagrillandbar.com/wp-content/uploads/2021/07/Catfish-Peppersoup.jpeg",
 
     recipe: {
       instructions: [
@@ -1880,8 +2043,7 @@ const recipes = [
     mealName: "Bitter Leaf Soup",
     overview:
       "Bitter leaf soup is a popular, traditional soup enjoyed by different tribes in Nigeria. It can be eaten with various fufu dishes and is so healthy and satisfying!",
-    image:
-      "https://lowcarbafrica.com/wp-content/uploads/2021/03/Bitter-Leaf-Soup-google-1-500x500.jpg",
+    image: "https://niammy.com/img/public/990/201903/1553547369_24159.jpg",
 
     recipe: {
       instructions: [
@@ -3405,82 +3567,82 @@ const recipes = [
     },
     originalSource: "https://stepawayfromthecarbs.com/low-carb-lemon-smoothie/",
   },
-  {
-    id: 37,
-    mealName: "Green Detox Keto Smoothie",
-    overview:
-      "Revitalize your day with this Green Detox Keto Smoothie. Packed with the goodness of kale, fresh mint, avocado, fennel, and more, this unsweetened, low-carb smoothie is a refreshing treat for your body and taste buds.",
-    image:
-      "https://www.sugarfreemom.com/wp-content/uploads/2016/06/green-tea-detox-smoothie1-1-of-1.jpg",
-    recipe: {
-      instructions: [
-        "1. Scoop the avocado flesh out and place all ingredients into a high-speed blender.",
-        "2. Blend until smooth.",
-        "3. Adjust thickness by adding more almond milk if desired.",
-      ],
-      ingredients: [
-        {
-          name: "Handful / 15g kale",
-          image:
-            "https://www.shutterstock.com/image-photo/bunch-organic-kale-on-rustic-600nw-291502316.jpg",
-        },
-        {
-          name: "Handful / 10g fresh mint leaves, picked",
-          image:
-            "https://plantura.garden/uk/wp-content/uploads/sites/2/2021/04/store-fresh-mint.jpg",
-        },
-        {
-          name: "½ avocado",
-          image:
-            "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/07/Stocksy_txpa387b205vt9300_Medium_3358820_thumb-732x549.jpg",
-        },
-        {
-          name: "¼ / 50g fennel or 1 celery stick",
-          image:
-            "https://www.dadcooksdinner.com/wp-content/uploads/2020/03/Stalk-of-Celery-vs-Rib-of-Celery-2020-03-03-Celery-Stalk-vs-Rib0391-1920x.jpg",
-        },
-        {
-          name: "¼ small cucumber (100g)",
-          image:
-            "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2445929.png",
-        },
-        {
-          name: "1 tablespoon protein powder unsweetened",
-          image:
-            "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5766032/1.jpg?0069",
-        },
-        {
-          name: "1 cup / 240 ml almond milk unsweetened",
-          image:
-            "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
-        },
-        {
-          name: "1 tablespoon almond butter",
-          image:
-            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
-        },
-        {
-          name: "½ lemon, juiced",
-          image:
-            "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
-        },
-      ],
-    },
-    course: "Beverage",
-    prepTime: "5 minutes",
-    totalTime: "5 minutes",
-    prepLevel: "Easy",
-    servings: 1,
-    nutritionalFacts: {
-      calories: 137,
-      totalCarbohydrates: "7.7g",
-      protein: "5.6g",
-      fat: "10g",
-      fiber: "4.7g",
-      sugar: "1.7g",
-    },
-    originalSource: "https://sugarfreelondoner.com/keto-green-smoothie/",
-  },
+//   {
+//     id: 37,
+//     mealName: "Green Detox Keto Smoothie",
+//     overview:
+//       "Revitalize your day with this Green Detox Keto Smoothie. Packed with the goodness of kale, fresh mint, avocado, fennel, and more, this unsweetened, low-carb smoothie is a refreshing treat for your body and taste buds.",
+//     image:
+//       "https://www.sugarfreemom.com/wp-content/uploads/2016/06/green-tea-detox-smoothie1-1-of-1.jpg",
+//     recipe: {
+//       instructions: [
+//         "1. Scoop the avocado flesh out and place all ingredients into a high-speed blender.",
+//         "2. Blend until smooth.",
+//         "3. Adjust thickness by adding more almond milk if desired.",
+//       ],
+//       ingredients: [
+//         {
+//           name: "Handful / 15g kale",
+//           image:
+//             "https://www.shutterstock.com/image-photo/bunch-organic-kale-on-rustic-600nw-291502316.jpg",
+//         },
+//         {
+//           name: "Handful / 10g fresh mint leaves, picked",
+//           image:
+//             "https://plantura.garden/uk/wp-content/uploads/sites/2/2021/04/store-fresh-mint.jpg",
+//         },
+//         {
+//           name: "½ avocado",
+//           image:
+//             "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2021/07/Stocksy_txpa387b205vt9300_Medium_3358820_thumb-732x549.jpg",
+//         },
+//         {
+//           name: "¼ / 50g fennel or 1 celery stick",
+//           image:
+//             "https://www.dadcooksdinner.com/wp-content/uploads/2020/03/Stalk-of-Celery-vs-Rib-of-Celery-2020-03-03-Celery-Stalk-vs-Rib0391-1920x.jpg",
+//         },
+//         {
+//           name: "¼ small cucumber (100g)",
+//           image:
+//             "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2445929.png",
+//         },
+//         {
+//           name: "1 tablespoon protein powder unsweetened",
+//           image:
+//             "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5766032/1.jpg?0069",
+//         },
+//         {
+//           name: "1 cup / 240 ml almond milk unsweetened",
+//           image:
+//             "https://navs-online.org/wp-content/uploads/2016/03/Almond-Milk-v2.jpg",
+//         },
+//         {
+//           name: "1 tablespoon almond butter",
+//           image:
+//             "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
+//         },
+//         {
+//           name: "½ lemon, juiced",
+//           image:
+//             "https://hungryhealthyhappy.com/wp-content/uploads/2018/02/Vanilla-and-Honey-Almond-Butter-featured.jpg",
+//         },
+//       ],
+//     },
+//     course: "Beverage",
+//     prepTime: "5 minutes",
+//     totalTime: "5 minutes",
+//     prepLevel: "Easy",
+//     servings: 1,
+//     nutritionalFacts: {
+//       calories: 137,
+//       totalCarbohydrates: "7.7g",
+//       protein: "5.6g",
+//       fat: "10g",
+//       fiber: "4.7g",
+//       sugar: "1.7g",
+//     },
+//     originalSource: "https://sugarfreelondoner.com/keto-green-smoothie/",
+//   },
   {
     id: 38,
     mealName: "Keto Avocado Chocolate Smoothie",

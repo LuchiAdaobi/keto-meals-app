@@ -178,6 +178,7 @@ img {
   );
   height: 5rem;
   margin: 0 auto;
+  cursor: pointer;
 }
 .header img {
   width: 40px;
@@ -272,7 +273,7 @@ img {
   position: relative;
   top: -6rem;
   right: 0;
-  /* animation: rotateAnimation 10s infinite; */
+  animation: rotateAnimation 10s infinite;
 }
 .single-meal .meal-timing {
   display: flex;

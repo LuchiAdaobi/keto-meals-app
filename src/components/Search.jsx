@@ -2,12 +2,8 @@ import { useGlobalContext } from "../context";
 import { useState, useEffect } from "react";
 
 export default function Search() {
-  const { setSearchTerm, getRandomMeal, setMeals,randomMeal, setIsInitialLoad } = useGlobalContext();
+  const { setSearchTerm, getRandomMeal, setRandomMeal, } = useGlobalContext();
   const [text, setText] = useState("");
-
-  useEffect(() => {
-    getRandomMeal();
-  }, []);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -23,6 +19,7 @@ export default function Search() {
   function handleRandomMeal() {
     setSearchTerm("");
     setText("");
+    setRandomMeal(null)
     getRandomMeal()
   }
 
