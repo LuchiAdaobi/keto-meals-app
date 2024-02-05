@@ -57,6 +57,7 @@
   --grey-700: #334155;
   --grey-800: #1e293b;
   --grey-900: #0f172a;
+  --grey-modal: #848284;
 
   /* fonts  */
   --small-text: 0.875rem;
@@ -64,6 +65,7 @@
   /* rest of the vars */
   /* --backgroundColor: var(--white); */
   --backgroundColor: var(--grey-100);
+  --transition: 0.3s ease-in-out all;
   --textColor: var(--grey-900);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
@@ -250,7 +252,7 @@ img {
 .single-meal {
   padding: 3rem 0.3rem;
   padding-bottom: 1.5rem;
-  background-color: #20201c;
+  background-color: #202019;
   border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
@@ -298,7 +300,141 @@ img {
 }
 
 /* MODAL */
-
+.modal-overlay{
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgba(0,0,0,0.85);
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+  z-index: 30;
+  overflow-y: scroll;
+}
+.modal-overlay .btn{
+  margin: .8rem auto; 
+  display: block;
+  margin-bottom: 1.5rem;          
+}
+.modal-overlay .image{
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  /* margin-bottom: .2rem; */
+}
+.modal{
+  color: var(--grey-modal);
+  background: #202019;
+  padding:  1rem 2rem;
+  width: 80vw;
+  max-width: 800px;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+.modal .modal-title{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.modal .modal-title h4{
+  font-size: 1.3rem;
+}
+.modal .timer img{
+  width: 20px;
+  height: 20px;
+}
+.modal .timer p{
+  font-size: .7rem;
+}
+.modal .modal-button-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem auto;
+  background-color: #0f0f0a;
+  padding: .2rem .8rem;
+  border-radius: var(--border-radius);
+}
+.modal .modal-button-container .btn {
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+.modal .modal-button-container .btn:hover{
+  color: #afb0b1;
+}
+.modal .modal-button-container .btn.active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #52524d;
+  padding: .2rem .9rem;
+  border-radius: var(--border-radius);
+  color: var(--color-yellow);
+  color: #c1a808;
+}
+.modal .modal-button-container .btn.active:hover{
+  color:#ebcc05 ;
+}
+.modal .recipe {
+  line-height: 2rem;
+}
+.ingredients{
+  margin: 1.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+.ingredients .ingredient-card{
+  background-color: #0f0f0a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90px;
+  max-width: 120px;
+  padding: .6rem .5rem;
+  border-radius: .7rem;
+}
+.ingredients .ingredient-card img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ingredients .ingredient-card p {
+  font-size: .7rem;
+}
+.modal .nutrition {
+  line-height: 1.5rem;
+  font-size: .8rem;
+}
+.modal .nutrition p{
+  border-bottom: 1px solid #52524d;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+}
+.modal .nutrition .note{
+  margin-top: 1.3rem;
+  border-bottom: transparent;
+}
+.modal .nutrition .note span{
+  font-weight: bold;
+}
+.modal .note a, .modal .source{
+  color: #867402;
+}
+.modal .note a:hover, .modal .source:hover{
+  color: #a69105;
+}
+.modal .source {
+  margin-bottom: 1rem;
+}
 @keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);

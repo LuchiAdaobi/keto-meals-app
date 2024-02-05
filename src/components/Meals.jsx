@@ -1,7 +1,7 @@
 import { useGlobalContext } from "../context";
 
 export default function Meals() {
-  const { meals, randomMeal, loading } = useGlobalContext();
+  const { meals, randomMeal, loading, handleShowModal } = useGlobalContext();
 
   return (
     <main className="container">
@@ -16,7 +16,11 @@ export default function Meals() {
           <div className="meals">
             {randomMeal ? (
               // Render randomMeal if it exists
-              <div className="single-meal" key={randomMeal.id}>
+              <div
+                className="single-meal"
+                key={randomMeal.id}
+                onClick={() => handleShowModal(randomMeal.id)}
+              >
                 <img src={randomMeal.image} alt={randomMeal.mealName} />
                 <h4>{randomMeal.mealName}</h4>
                 <p className="course">Course : {randomMeal.course}</p>
@@ -32,7 +36,11 @@ export default function Meals() {
                 const { id, image, mealName, prepLevel, totalTime, course } =
                   singleMeal;
                 return (
-                  <div className="single-meal" key={id}>
+                  <div
+                    className="single-meal"
+                    key={id}
+                    onClick={() => handleShowModal(singleMeal.id)}
+                  >
                     <img src={image} alt={mealName} />
                     <h4>{mealName}</h4>
                     <p className="course">Course : {course}</p>

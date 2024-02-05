@@ -10,6 +10,11 @@ function AppProvider({ children }) {
   const [randomMeal, setRandomMeal] = useState(null);
   const [loading, setLoading] = useState(true);
   const [searchResults, setSearchResults] = useState([]);
+  const [selectedMeal, setSelectedMeal] = useState("");
+  const [showModal, setShowModal] = useState(false);
+  const [showRecipe, setShowRecipe] = useState(false);
+  const [showIngredient, setShowIngredient] = useState(false);
+  const [showNutrition, setShowNutrition] = useState(false);
 
   // VARIABLES
   const allMeals = recipes;
@@ -17,12 +22,12 @@ function AppProvider({ children }) {
   // USEEFFECT
   useEffect(() => {
     setTimeout(() => {
-    setMeals(allMeals);
-    setSearchResults(allMeals);
-    setLoading(false);
+      setMeals(allMeals);
+      setSearchResults(allMeals);
+      setLoading(false);
     }, 300);
   }, []);
-  
+
   //   useEffect(() => {
   //     setTimeout(() => {
   //       const randomizedMeals = [...allMeals].sort(() => Math.random() - 0.5);
@@ -68,6 +73,27 @@ function AppProvider({ children }) {
       return null;
     }
   }
+  function handleShowModal(id) {
+    let meal
+
+    meal = meals.find(meal => meal.id === id)
+    setSelectedMeal(meal)
+    setShowModal(true)
+  }
+
+  function handleHideModal() {
+    setShowModal(false);
+  }
+  function handleShowRecipe() {
+    showRecipe ? setShowRecipe(false) : setShowRecipe(true)
+  }
+  function handleShowIngredient() {
+    showIngredient ? setShowIngredient(false) : setShowIngredient(true);
+  }
+  function handleShowNutrition() {
+    showRecipe ? setShowRecipe(false) : setShowRecipe(true);
+  }
+
   return (
     <AppContext.Provider
       value={{
@@ -79,6 +105,16 @@ function AppProvider({ children }) {
         randomMeal,
         setRandomMeal,
         searchTerm,
+        selectedMeal,
+        showModal,
+        handleShowModal,
+        handleHideModal,
+        handleShowRecipe,
+        handleShowIngredient,
+        handleShowNutrition,
+        showRecipe,
+        showIngredient,
+        showNutrition,
       }}
     >
       {children}
