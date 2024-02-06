@@ -2,7 +2,8 @@ import { useGlobalContext } from "../context";
 import { BsHandThumbsUp } from "react-icons/bs";
 
 export default function Meals() {
-  const { meals, randomMeal, loading, handleShowModal } = useGlobalContext();
+  const { meals, randomMeal, loading, handleShowModal, addToFavorites } =
+    useGlobalContext();
 
   return (
     <main className="container">
@@ -17,15 +18,17 @@ export default function Meals() {
           <div className="meals">
             {randomMeal ? (
               // Render randomMeal if it exists
-              <div
-                className="single-meal"
-                key={randomMeal.id}
-                onClick={() => handleShowModal(randomMeal.id)}
-              >
-                <img src={randomMeal.image} alt={randomMeal.mealName} />
+              <div className="single-meal" key={randomMeal.id}>
+                <img
+                  src={randomMeal.image}
+                  alt={randomMeal.mealName}
+                  onClick={() => handleShowModal(randomMeal.id)}
+                />
 
                 <button className="like-btn">
-                  <BsHandThumbsUp />
+                  <BsHandThumbsUp
+                    onClick={() => addToFavorites(randomMeal.id)}
+                  />
                 </button>
 
                 <h4>{randomMeal.mealName}</h4>
@@ -42,15 +45,15 @@ export default function Meals() {
                 const { id, image, mealName, prepLevel, totalTime, course } =
                   singleMeal;
                 return (
-                  <div
-                    className="single-meal"
-                    key={id}
-                    onClick={() => handleShowModal(singleMeal.id)}
-                  >
-                    <img src={image} alt={mealName} />
+                  <div className="single-meal" key={id}>
+                    <img
+                      src={image}
+                      alt={mealName}
+                      onClick={() => handleShowModal(singleMeal.id)}
+                    />
 
                     <button className="like-btn">
-                      <BsHandThumbsUp />
+                      <BsHandThumbsUp onClick={() => addToFavorites(id)} />
                     </button>
 
                     <h4>{mealName}</h4>

@@ -16,6 +16,7 @@ function AppProvider({ children }) {
   const [showIngredient, setShowIngredient] = useState(true);
   const [showNutrition, setShowNutrition] = useState(false);
   const [activeContent, setActiveContent] = useState("ingredient");
+  const [favorites, setFavorites] = useState([]);
   // VARIABLES
   const allMeals = recipes;
 
@@ -65,14 +66,13 @@ function AppProvider({ children }) {
   }
   function handleShowModal(id) {
     let meal;
-
     meal = meals.find((meal) => meal.id === id);
     setSelectedMeal(meal);
     setShowModal(true);
     setActiveContent("ingredient");
-    setShowIngredient(true)
-    setShowNutrition(false)
-    setShowRecipe(false)
+    setShowIngredient(true);
+    setShowNutrition(false);
+    setShowRecipe(false);
   }
 
   function handleHideModal() {
@@ -100,6 +100,23 @@ function AppProvider({ children }) {
     setShowIngredient(false);
   }
 
+  function addToFavorites(id) {
+    const alreadyFav = favorites.find((fav) => fav.id === id);
+    if (alreadyFav) return;
+    const favoriteMeals = meals.map((meal) => {
+      return meal.id === id;
+    });
+    const selectedMeal = meals.find((meal) => meal.id === id);
+    if(!selectedMeal) return
+
+    const updatedFavorites = [...favorites, selectedMeal];
+    setFavorites(updatedFavorites);
+    console.log(favorites);
+  }
+  function removeFromFavorites(id) {
+    const updatedFavorites = favorites.filter((meal) => meal.id !== id);
+    setFavorites(updatedFavorites);
+  }
   return (
     <AppContext.Provider
       value={{
@@ -123,6 +140,9 @@ function AppProvider({ children }) {
         showNutrition,
         activeContent,
         setActiveContent,
+        addToFavorites,
+        removeFromFavorites,
+        favorites,
       }}
     >
       {children}
