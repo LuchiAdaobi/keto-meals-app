@@ -16,7 +16,9 @@ function AppProvider({ children }) {
   const [showIngredient, setShowIngredient] = useState(true);
   const [showNutrition, setShowNutrition] = useState(false);
   const [activeContent, setActiveContent] = useState("ingredient");
-  const [favorites, setFavorites] = useState([]);
+  const [favorites, setFavorites] = useState(
+    JSON.parse(localStorage.getItem("favKetoMeals")) || []
+  );
   // VARIABLES
   const allMeals = recipes;
 
@@ -64,15 +66,25 @@ function AppProvider({ children }) {
       return null;
     }
   }
-  function handleShowModal(id) {
+  function handleShowModal(id, favorites) {
     let meal;
-    meal = meals.find((meal) => meal.id === id);
-    setSelectedMeal(meal);
-    setShowModal(true);
-    setActiveContent("ingredient");
-    setShowIngredient(true);
-    setShowNutrition(false);
-    setShowRecipe(false);
+    if (favorites) {
+      meal = favorites.find((meal) => meal.id === id);
+      setSelectedMeal(meal);
+      setShowModal(true);
+      setActiveContent("ingredient");
+      setShowIngredient(true);
+      setShowNutrition(false);
+      setShowRecipe(false);
+    } else {
+      meal = meals.find((meal) => meal.id === id);
+      setSelectedMeal(meal);
+      setShowModal(true);
+      setActiveContent("ingredient");
+      setShowIngredient(true);
+      setShowNutrition(false);
+      setShowRecipe(false);
+    }
   }
 
   function handleHideModal() {
@@ -107,15 +119,16 @@ function AppProvider({ children }) {
       return meal.id === id;
     });
     const selectedMeal = meals.find((meal) => meal.id === id);
-    if(!selectedMeal) return
+    if (!selectedMeal) return;
 
     const updatedFavorites = [...favorites, selectedMeal];
     setFavorites(updatedFavorites);
-    console.log(favorites);
+    localStorage.setItem("favKetoMeals", JSON.stringify(updatedFavorites));
   }
   function removeFromFavorites(id) {
     const updatedFavorites = favorites.filter((meal) => meal.id !== id);
     setFavorites(updatedFavorites);
+    localStorage.setItem("favKetoMeals", JSON.stringify(updatedFavorites));
   }
   return (
     <AppContext.Provider
