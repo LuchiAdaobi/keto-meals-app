@@ -11,7 +11,6 @@ export default function Modal() {
     showNutrition,
     handleShowNutrition,
     activeContent,
-    showModal,
   } = useGlobalContext();
   const {
     mealName,
@@ -21,6 +20,9 @@ export default function Modal() {
     recipe,
     nutritionalFacts,
     originalSource,
+    course,
+    prepTime,
+    cookTime,
   } = selectedMeal;
   return (
     <section className="container">
@@ -35,6 +37,32 @@ export default function Modal() {
             </div>
           </div>
           <p>{overview}</p>
+          <div className="meal-summary">
+            <p>
+              <span>Course: </span>
+              {course}
+            </p>
+            <p>
+              <span>Prep Time: </span>
+              {prepTime}
+            </p>
+            <p>
+              <span>Cook Time: </span>
+              {cookTime}
+            </p>
+            <p>
+              <span>Total Time: </span>
+              {totalTime}
+            </p>
+            <p>
+              <span>Serving: </span>
+              {nutritionalFacts.servings}
+            </p>
+            <p>
+              <span>Calories: </span>
+              {nutritionalFacts.calories}
+            </p>
+          </div>
 
           <div className="modal-button-container">
             <button
@@ -61,11 +89,6 @@ export default function Modal() {
             >
               Nutrition
             </button>
-          </div>
-          <div className="source">
-            <a href={originalSource} target="_blank" className="source">
-              Original Source
-            </a>
           </div>
 
           {showRecipe ? (
@@ -158,6 +181,11 @@ export default function Modal() {
               </div>
             )
           )}
+          <div className="source">
+            <a href={originalSource} target="_blank" className="source">
+              Original Source
+            </a>
+          </div>
           <button className="btn" onClick={handleHideModal}>
             Close
           </button>
