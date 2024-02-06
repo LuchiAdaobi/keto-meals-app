@@ -41,10 +41,6 @@ function AppProvider({ children }) {
     }
   }, [searchTerm]);
 
-  // useEffect(()=>{
-  //   setActiveContent('ingredient')
-  // }, [meals])
-
   // FUNCTIONS
   function handleSearch() {
     const filteredMeals = allMeals.filter((meal) =>
@@ -73,6 +69,10 @@ function AppProvider({ children }) {
     meal = meals.find((meal) => meal.id === id);
     setSelectedMeal(meal);
     setShowModal(true);
+    setActiveContent("ingredient");
+    setShowIngredient(true)
+    setShowNutrition(false)
+    setShowRecipe(false)
   }
 
   function handleHideModal() {
@@ -99,7 +99,6 @@ function AppProvider({ children }) {
     setShowRecipe(false);
     setShowIngredient(false);
   }
-
 
   return (
     <AppContext.Provider

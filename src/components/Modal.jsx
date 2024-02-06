@@ -11,7 +11,7 @@ export default function Modal() {
     showNutrition,
     handleShowNutrition,
     activeContent,
-    setActiveContent,
+    showModal,
   } = useGlobalContext();
   const {
     mealName,
