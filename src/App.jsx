@@ -13,7 +13,7 @@ function App() {
       <Header />
       <div className="wrapper">
         <Search />
-        {/* <Favorites /> */}
+        <Favorites />
         <Meals />
         {showModal && <Modal />}
       </div>

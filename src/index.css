@@ -80,7 +80,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background: linear-gradient(
     to top right,
@@ -88,6 +88,8 @@ body {
     #0c0d0a 75%,
     #2d2700 100%
   );
+  background-position: center;
+  background-size: cover;
   color: #ffffff;
   font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue",
@@ -148,18 +150,11 @@ img {
   top: 4rem;
 }
 .container {
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
   max-width: 1150px;
   margin: 0 auto;
 }
-.container .favorites {
-  border-radius: var(--border-radius);
-  padding: 3.4rem;
-  color: var(--color-yellow);
-  background-image: url("../bwhbg.jpg");
-  background-position: center;
-  margin-bottom: 3rem;
-}
+
 
 /* Global styles ends here */
 
@@ -229,13 +224,16 @@ img {
   font-size: 0.75rem;
 }
 /* FAVORITE */
-.container .favorites {
+.favorites {
   border-radius: var(--border-radius);
   padding: 3.4rem;
-  color: #71693c;
-  background-image: url("../dbg.jpeg");
+  /* color: #71693c; */
+  color: #818107;
+  background-image: url("../gbg.webp");
   background-position: center;
   margin-bottom: 3rem;
+  background-size: cover;
+  
 }
 /* MEAL */
 .meals-container {
@@ -243,7 +241,7 @@ img {
 }
 .meals {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 .no-meal-text{
@@ -252,8 +250,7 @@ img {
   font-family: cursive;
 }
 .single-meal {
-  padding: 3rem 0.3rem;
-  padding-bottom: 1.5rem;
+  padding: 0 .2rem;
   background-color: #202019;
   border-radius: var(--border-radius);
   display: flex;
@@ -270,17 +267,17 @@ img {
 
 .single-meal h4 {
   font-size: 0.9rem;
+  margin-top: 1.8rem;
 }
 .single-meal .like-btn {
   background: transparent;
   border: transparent;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   cursor: pointer;
   transition: var(--transition);
   color: #ac9a32;
-  /* color: #c2c4c5; */
   position: relative;
-  top: -3.1rem;
+  top: -1.7rem;
   right: 0;
 }
 .like-btn:hover {
@@ -288,11 +285,11 @@ img {
   transform: translateY(-2px);
 }
 .single-meal img {
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   position: relative;
-  top: -6rem;
+  top: -2.6rem;
   right: 0;
   animation: rotateAnimation 10s infinite;
 }
@@ -301,7 +298,7 @@ img {
   justify-content: space-around;
   gap: 0.9rem;
   align-items: center;
-  margin-top: .5rem;
+  margin-top: .8rem;
 }
 .single-meal h4, .course, .meal-timing{
   position: relative;
@@ -311,6 +308,7 @@ img {
   margin-top: .6rem;
   font-size: .8rem;
   color: #baaa4c;
+  line-height: 1.2rem;
 }
 .single-meal .meal-timing .text-small {
   font-size: 0.8rem;
@@ -336,7 +334,12 @@ img {
   display: block;
   margin-bottom: 1.5rem;
   background: #a69105;
-  color: #f1f5f9;          
+  color: #f1f5f9;
+}
+.modal-overlay .btn.close{
+  position: fixed; 
+  top: .5rem;
+  right: 1.5rem;         
 }
 .modal-overlay .btn:hover{
   background-color: #c6ad1d;
@@ -350,22 +353,23 @@ img {
 .modal{
   color: var(--grey-modal);
   background: #202019;
-  padding:  1rem 2rem;
-  width: 80vw;
+  padding:  1rem .8rem;
+  width: 85vw;
   max-width: 750px;
   border-radius: var(--border-radius);
   margin-bottom: 2rem;
-  padding-bottom: 0;
+  padding-bottom:1.5rem;
 }
 .modal .modal-title{
   color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
 }
-.modal .modal-title h4{
-  font-size: 1.3rem;
-}
+/* .modal .modal-title h4{
+  /* font-size: 1rem; 
+} */
 .modal .timer img{
   width: 25px;
   height: 25px;
@@ -375,14 +379,16 @@ img {
 .modal .timer p{
   font-size: .7rem;
 }
+.modal .overview{
+  font-size: .9rem;
+}
 .modal .meal-summary{
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: .9rem;
   justify-content: center;
   margin-top:1rem ;
   font-size: .8rem;
-  /* color: #9da0a3; */
 }
 .modal .meal-summary span{
   color: #685b02;
@@ -402,6 +408,7 @@ img {
   margin: 0;
   background-color: transparent;
   border: none;
+  font-size: .7rem;
 }
 .modal .modal-button-container .btn:hover{
   color: #afb0b1;
@@ -426,7 +433,7 @@ img {
   margin: 1rem auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: .5rem;
 }
 .ingredients .ingredient-card{
@@ -443,7 +450,7 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  
+  margin-bottom: .5rem;
 }
 .ingredients .ingredient-card p {
   font-size: .7rem;
@@ -470,7 +477,9 @@ img {
 .modal .note a:hover, .modal .source:hover{
   color: #a69105;
 }
-
+.modal .source{
+  font-size: .9rem;
+}
 @keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);
@@ -480,10 +489,15 @@ img {
   }
 }
 /* MEDIA QUERIES */
-
-@media screen and (min-width: 502px) {
+@media screen and (min-width: 506px) {
+  .single-meal img{
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 676px) {
   .meals {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -501,10 +515,20 @@ img {
   .no-meal-text{
     font-size: 1.3rem; 
   }
+  .modal {
+    padding: 1rem 2rem;
+  }
   .modal-overlay .image{
     width: 180px;
     height: 180px;
   }
+  .modal .modal-button-container .btn {
+  font-size: .9rem;
+}
+  .single-meal img {
+  width: 120px;
+  height: 120px;
+}
 }
 
 @media screen and (min-width: 996px) {
@@ -512,8 +536,8 @@ img {
     padding: 0.5rem 4rem;
   }
   .single-meal img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
 }
 .modal-overlay .image{
     width: 200px;
