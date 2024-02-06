@@ -13,9 +13,9 @@ function AppProvider({ children }) {
   const [selectedMeal, setSelectedMeal] = useState("");
   const [showModal, setShowModal] = useState(false);
   const [showRecipe, setShowRecipe] = useState(false);
-  const [showIngredient, setShowIngredient] = useState(false);
+  const [showIngredient, setShowIngredient] = useState(true);
   const [showNutrition, setShowNutrition] = useState(false);
-
+  const [activeContent, setActiveContent] = useState("ingredient");
   // VARIABLES
   const allMeals = recipes;
 
@@ -27,15 +27,6 @@ function AppProvider({ children }) {
       setLoading(false);
     }, 300);
   }, []);
-
-  //   useEffect(() => {
-  //     setTimeout(() => {
-  //       const randomizedMeals = [...allMeals].sort(() => Math.random() - 0.5);
-  //       setMeals(randomizedMeals);
-  //       setSearchResults(randomizedMeals);
-  //       setLoading(false);
-  //     }, 300);
-  //   }, []);
 
   useEffect(() => {
     if (!searchTerm) return;
@@ -50,13 +41,16 @@ function AppProvider({ children }) {
     }
   }, [searchTerm]);
 
+  // useEffect(()=>{
+  //   setActiveContent('ingredient')
+  // }, [meals])
+
   // FUNCTIONS
   function handleSearch() {
     const filteredMeals = allMeals.filter((meal) =>
       meal.mealName.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(filteredMeals);
-    // setMeals(filteredMeals);
   }
 
   function getRandomMeal() {
@@ -74,25 +68,38 @@ function AppProvider({ children }) {
     }
   }
   function handleShowModal(id) {
-    let meal
+    let meal;
 
-    meal = meals.find(meal => meal.id === id)
-    setSelectedMeal(meal)
-    setShowModal(true)
+    meal = meals.find((meal) => meal.id === id);
+    setSelectedMeal(meal);
+    setShowModal(true);
   }
 
   function handleHideModal() {
     setShowModal(false);
   }
+
   function handleShowRecipe() {
-    showRecipe ? setShowRecipe(false) : setShowRecipe(true)
+    setShowRecipe((prevShowRecipe) => !prevShowRecipe);
+    setActiveContent("recipe");
+    setShowIngredient(false);
+    setShowNutrition(false);
   }
+
   function handleShowIngredient() {
-    showIngredient ? setShowIngredient(false) : setShowIngredient(true);
+    setShowIngredient((prevShowIngredient) => !prevShowIngredient);
+    setActiveContent("ingredient");
+    setShowRecipe(false);
+    setShowNutrition(false);
   }
+
   function handleShowNutrition() {
-    showRecipe ? setShowRecipe(false) : setShowRecipe(true);
+    setShowNutrition((prevShowNutrition) => !prevShowNutrition);
+    setActiveContent("nutrition");
+    setShowRecipe(false);
+    setShowIngredient(false);
   }
+
 
   return (
     <AppContext.Provider
@@ -115,6 +122,8 @@ function AppProvider({ children }) {
         showRecipe,
         showIngredient,
         showNutrition,
+        activeContent,
+        setActiveContent,
       }}
     >
       {children}

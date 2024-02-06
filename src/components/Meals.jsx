@@ -1,4 +1,5 @@
 import { useGlobalContext } from "../context";
+import { BsHandThumbsUp } from "react-icons/bs";
 
 export default function Meals() {
   const { meals, randomMeal, loading, handleShowModal } = useGlobalContext();
@@ -22,6 +23,11 @@ export default function Meals() {
                 onClick={() => handleShowModal(randomMeal.id)}
               >
                 <img src={randomMeal.image} alt={randomMeal.mealName} />
+
+                <button className="like-btn">
+                  <BsHandThumbsUp />
+                </button>
+
                 <h4>{randomMeal.mealName}</h4>
                 <p className="course">Course : {randomMeal.course}</p>
                 <div className="meal-timing">
@@ -42,6 +48,11 @@ export default function Meals() {
                     onClick={() => handleShowModal(singleMeal.id)}
                   >
                     <img src={image} alt={mealName} />
+
+                    <button className="like-btn">
+                      <BsHandThumbsUp />
+                    </button>
+
                     <h4>{mealName}</h4>
                     <p className="course">Course : {course}</p>
                     <div className="meal-timing">
