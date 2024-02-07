@@ -422,6 +422,7 @@ img {
 }
 .modal .overview{
   font-size: .9rem;
+  letter-spacing: var(--letterSpacing);
 }
 .modal .meal-summary{
   display: flex;
@@ -629,5 +630,13 @@ img {
 .favorites h4{
   font-size: 1.1rem;
 }
-
+.modal{
+  width: 90vw;
+}
+.modal .overview{
+  font-size: .8rem;
+}
+.single-meal h4 {
+  font-size: 0.8rem;
+}
 }
