@@ -243,7 +243,6 @@ img {
   background-position: center;
   margin-bottom: 3rem;
   background-size: cover;
-  
 }
 .favorite-container{
   display:flex;
@@ -649,5 +648,8 @@ img {
 }
 .modal .recipe {
   font-size: .7rem;
+}
+.single-fav img{
+  margin-top: -.5rem;
 }
 }
