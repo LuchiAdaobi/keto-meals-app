@@ -536,7 +536,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .19rem;
+  gap: 1.3rem;
 }
 .btn.disabled{
   background-color: rgb(110, 108, 108);
