@@ -36,9 +36,18 @@ function AppProvider({ children }) {
   }, []);
 
   useEffect(() => {
-    if (!searchTerm) return;
-    handleSearch();
-  }, [searchTerm, allMeals]);
+    if (searchTerm === "") {
+      setSearchResults(meals); // If no search term, show all meals
+    } else {
+      const filteredMeals = meals.filter((meal) =>
+        meal.mealName.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setSearchResults(filteredMeals);
+    }
+    // Update current page when search term changes
+    setCurrentPage(1);
+  }, [searchTerm, meals, setCurrentPage, setSearchResults]);
+
 
   useEffect(() => {
     if (meals.length === 0) return;
@@ -50,7 +59,7 @@ function AppProvider({ children }) {
 
   // FUNCTIONS
   function handleSearch() {
-    const filteredMeals = allMeals.filter((meal) =>
+    const filteredMeals = meals.filter((meal) =>
       meal.mealName.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(filteredMeals);
@@ -134,6 +143,7 @@ function AppProvider({ children }) {
     setFavorites(updatedFavorites);
     localStorage.setItem("favKetoMeals", JSON.stringify(updatedFavorites));
   }
+
   return (
     <AppContext.Provider
       value={{
@@ -145,6 +155,7 @@ function AppProvider({ children }) {
         randomMeal,
         setRandomMeal,
         searchTerm,
+        handleSearch,
         selectedMeal,
         showModal,
         handleShowModal,
@@ -164,7 +175,7 @@ function AppProvider({ children }) {
         setCurrentPage,
         itemsPerPage,
         showAllIngredients,
-        setShowAllIngredients
+        setShowAllIngredients,
       }}
     >
       {children}

@@ -11,6 +11,7 @@ export default function Meals() {
     itemsPerPage,
     currentPage,
     setCurrentPage,
+    searchTerm,
   } = useGlobalContext();
 
   const indexOfLastMeal = currentPage * itemsPerPage;
@@ -87,25 +88,37 @@ export default function Meals() {
           </div>
         )}
         {/* PAGINATION */}
-        <div className="pagination">
-          <button
-            className={currentPage === 1 ? "btn disabled" : "btn"}
-            onClick={() => setCurrentPage(currentPage - 1)}
-            disabled={currentPage == 1}
-          >
-            Prev
-          </button>
-          {pageNumber.map(number => (
-            <button className={number === currentPage ? 'btn active' : 'btn'} key={number} onClick={()=> setCurrentPage(number)}>{number}</button>
-          ))}
-          <button
-            className={currentPage === pageNumber.length ? "btn disabled" : "btn"}
-            onClick={() => setCurrentPage(currentPage + 1)}
-            disabled={currentPage === pageNumber.length}
-          >
-            Next
-          </button>
-        </div>
+        {(meals.length > 0 && !randomMeal && !searchTerm) && (
+          <div className="pagination">
+            <button
+              className={currentPage === 1 ? "btn disabled" : "btn"}
+              onClick={() => setCurrentPage(currentPage - 1)}
+              disabled={currentPage == 1}
+            >
+              Prev
+            </button>
+
+            
+            {pageNumber.map((number) => (
+              <button
+                className={number === currentPage ? "btn active" : "btn"}
+                key={number}
+                onClick={() => setCurrentPage(number)}
+              >
+                {number}
+              </button>
+            ))}
+            <button
+              className={
+                currentPage === pageNumber.length ? "btn disabled" : "btn"
+              }
+              onClick={() => setCurrentPage(currentPage + 1)}
+              disabled={currentPage === pageNumber.length}
+            >
+              Next
+            </button>
+          </div>
+        )}
       </section>
     </main>
   );
