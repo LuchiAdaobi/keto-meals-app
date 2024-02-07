@@ -268,6 +268,7 @@ img {
   cursor:pointer;
   font-size:0.55rem;
   transition:var(--transition);
+  color: #505001;
 }
 .remove-btn:hover{
   color:var(--red-dark)
@@ -276,11 +277,7 @@ img {
   font-size: 1.3rem;
   letter-spacing: var(--letterSpacing);
 }
-/* .favorite-container img{
-  width: 100px;
-  height: 100px;
-  border-radius:50%;
-} */
+
 /* MEAL */
 .meals-container {
   margin-top: 2rem;
@@ -413,9 +410,7 @@ img {
   align-items: center;
   margin-bottom: 1rem;
 }
-/* .modal .modal-title h4{
-  /* font-size: 1rem; 
-} */
+
 .modal .timer img{
   width: 25px;
   height: 25px;
@@ -525,6 +520,21 @@ img {
 }
 .modal .source{
   font-size: .9rem;
+}
+
+/* PAGINATION */
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .19rem;
+}
+.btn.disabled{
+  background-color: rgb(110, 108, 108);
+  color: rgb(85, 83, 83);
+}
+.btn.active{
+  background: #222200;
 }
 @keyframes rotateAnimation {
   0% {

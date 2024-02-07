@@ -2,26 +2,8 @@ import { useGlobalContext } from "../context";
 import { BsHandThumbsUp } from "react-icons/bs";
 
 export default function Meals() {
-  const {
-    meals,
-    randomMeal,
-    loading,
-    handleShowModal,
-    addToFavorites,
-    itemsPerPage,
-    currentPage,
-    setCurrentPage,
-  } = useGlobalContext();
-
-  const indexOfLastMeal = currentPage * itemsPerPage;
-  const indexOfFirstMeal = indexOfLastMeal - itemsPerPage;
-  const currentMeals = meals.slice(indexOfFirstMeal, indexOfLastMeal);
-
-  // Pagination Logic
-  let pageNumber = [];
-  for (let i = 1; i <= Math.ceil(meals.length / itemsPerPage); i++) {
-    pageNumber.push(i);
-  }
+  const { meals, randomMeal, loading, handleShowModal, addToFavorites } =
+    useGlobalContext();
 
   return (
     <main className="container">
@@ -58,7 +40,8 @@ export default function Meals() {
                 </div>
               </div>
             ) : (
-              currentMeals.map((singleMeal) => {
+              // Render meals if randomMeal doesn't exist
+              meals.map((singleMeal) => {
                 const { id, image, mealName, prepLevel, totalTime, course } =
                   singleMeal;
                 return (
@@ -86,26 +69,6 @@ export default function Meals() {
             )}
           </div>
         )}
-        {/* PAGINATION */}
-        <div className="pagination">
-          <button
-            className={currentPage === 1 ? "btn disabled" : "btn"}
-            onClick={() => setCurrentPage(currentPage - 1)}
-            disabled={currentPage == 1}
-          >
-            Prev
-          </button>
-          {pageNumber.map(number => (
-            <button className={number === currentPage ? 'btn active' : 'btn'} key={number} onClick={()=> setCurrentPage(number)}>{number}</button>
-          ))}
-          <button
-            className={currentPage === pageNumber.length ? "btn disabled" : "btn"}
-            onClick={() => setCurrentPage(currentPage + 1)}
-            disabled={currentPage === pageNumber.length}
-          >
-            Next
-          </button>
-        </div>
       </section>
     </main>
   );

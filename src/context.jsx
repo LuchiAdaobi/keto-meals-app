@@ -19,8 +19,11 @@ function AppProvider({ children }) {
   const [favorites, setFavorites] = useState(
     JSON.parse(localStorage.getItem("favKetoMeals")) || []
   );
+  const [currentPage, setCurrentPage] = useState(1);
+
   // VARIABLES
   const allMeals = recipes;
+  const itemsPerPage = 12;
 
   // USEEFFECT
   useEffect(() => {
@@ -156,6 +159,9 @@ function AppProvider({ children }) {
         addToFavorites,
         removeFromFavorites,
         favorites,
+        currentPage,
+        setCurrentPage,
+        itemsPerPage,
       }}
     >
       {children}
