@@ -33,7 +33,7 @@
   --shadow-4: 0 20px 25px -5px rgba(75, 73, 75, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.03);
 
-  --border-radius: 1.3rem;
+  --border-radius: .9rem;
 
   /* colors */
   --primary-100: #e6f0ff;
@@ -70,7 +70,7 @@
   --backgroundColor: var(--grey-100);
   --transition: 0.3s ease-in-out all;
   --textColor: var(--grey-900);
-  --borderRadius: 0.25rem;
+  /* --borderRadius: .25rem; */
   --letterSpacing: 1px;
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
@@ -398,7 +398,7 @@ img {
   padding:  1rem .8rem;
   width: 85vw;
   max-width: 750px;
-  border-radius: var(--border-radius);
+  border-radius: 1rem;
   margin-bottom: 2rem;
   padding-bottom:1.5rem;
 }
@@ -485,8 +485,9 @@ img {
   flex-direction: column;
   width: 90px;
   max-width: 120px;
-  padding: .6rem .5rem;
-  border-radius: .7rem;
+  padding: .8rem .8rem;
+  border-radius: 1.8rem;
+  text-align: center;
 }
 .ingredients .ingredient-card img{
   width: 40px;
@@ -495,7 +496,7 @@ img {
   margin-bottom: .5rem;
 }
 .ingredients .ingredient-card p {
-  font-size: .75rem;
+  font-size: .8rem;
 }
 .modal .nutrition {
   line-height: 1.5rem;
@@ -634,20 +635,20 @@ img {
   width: 90vw;
 }
 .modal .overview{
-  font-size: .8rem;
+  font-size: 1rem;
 }
 .modal .timer img{
   width: 20px;
   height: 20px; 
 }
 .modal .modal-title{
-  font-size: .9rem;
+  font-size: 1rem;
 }
 .single-meal h4 {
   font-size: 0.75rem;
 }
 .modal .recipe {
-  font-size: .7rem;
+  font-size: .9rem;
 }
 .single-fav img{
   margin-top: -.5rem;
