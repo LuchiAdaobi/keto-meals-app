@@ -569,6 +569,20 @@ img {
   .meals {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .modal{
+    width: 70vw;
+  }
+  .modal .overview{
+  font-size: .9rem;
+}
+
+.modal .modal-title{
+  font-size: 1.2rem;
+}
+.modal .recipe {
+  font-size: .9rem;
+}
 }
 
 @media screen and (min-width: 736px) {
@@ -599,6 +613,7 @@ img {
   width: 120px;
   height: 120px;
 }
+
 }
 
 @media screen and (min-width: 996px) {
