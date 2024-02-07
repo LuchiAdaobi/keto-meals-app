@@ -625,23 +625,23 @@ img {
   height:50px;
 }
 .remove-btn{
-  font-size:0.5rem;
+  font-size:0.45rem;
 }
 .favorites h4{
   font-size: .9rem;
 }
 .modal{
-  width: 100vw;
+  width: 95vw;
 }
 .modal .overview{
-  font-size: .75rem;
+  font-size: .8rem;
 }
 .modal .timer img{
   width: 20px;
   height: 20px; 
 }
 .modal .modal-title{
-  font-size: .9rem;
+  /* font-size: .9rem; */
 }
 .single-meal h4 {
   font-size: 0.75rem;
