@@ -616,6 +616,17 @@ img {
 .modal{
   width: 60vw;
 }
+.modal .overview{
+  font-size: 1rem;
+}
+
+.modal .modal-title{
+  font-size: 1.2rem;
+}
+.modal .recipe {
+  font-size: 1rem;
+}
+
 }
 @media screen and (max-width: 500px){
   .favorites {
