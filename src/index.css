@@ -470,6 +470,7 @@ img {
 }
 .modal .recipe {
   line-height: 2rem;
+  font-size: .85rem;
 }
 .ingredients{
   margin: 1rem auto;
@@ -631,10 +632,10 @@ img {
   font-size: .9rem;
 }
 .modal{
-  width: 95vw;
+  width: 90vw;
 }
 .modal .overview{
-  font-size: .8rem;
+  /* font-size: .8rem; */
 }
 .modal .timer img{
   width: 20px;
