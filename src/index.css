@@ -616,7 +616,7 @@ img {
   width: 60vw;
 }
 }
-@media screen and(max-width: 515px){
+/* @media screen and(max-width: 515px){
   .favorites {
   margin-bottom: 2rem; 
 }
@@ -646,4 +646,4 @@ img {
 .single-meal h4 {
   font-size: 0.5rem;
 }
-}
+} */
