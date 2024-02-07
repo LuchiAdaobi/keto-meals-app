@@ -616,7 +616,7 @@ img {
   width: 60vw;
 }
 }
-@media screen and(max-width: 505px){
+@media screen and(max-width: 515px){
   .favorites {
   margin-bottom: 2rem; 
 }
