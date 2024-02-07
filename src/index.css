@@ -630,13 +630,10 @@ img {
 .favorites h4{
   font-size: 1.1rem;
 }
-.modal{
-  width: 90vw;
-}
 .modal .overview{
   font-size: .8rem;
 }
 .single-meal h4 {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
 }
 }
