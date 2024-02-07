@@ -189,12 +189,12 @@ export default function Modal() {
               </div>
             )
           )}
-          <button
+          {showIngredient && <button
             className="btn view"
             onClick={() => setShowAllIngredients(!showAllIngredients)}
           >
             {showAllIngredients ? "View Less" : "View All"}
-          </button>
+          </button>}
           <div className="source">
             <a href={originalSource} target="_blank" className="source">
               Original Source

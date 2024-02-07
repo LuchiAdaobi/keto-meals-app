@@ -520,6 +520,8 @@ img {
 }
 .modal .source{
   font-size: .9rem;
+  margin-top: .8rem;
+  margin-bottom: .2rem;
 }
 .modal .btn.view{
   background: transparent;
