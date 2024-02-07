@@ -309,7 +309,7 @@ img {
 }
 
 .single-meal h4 {
-  font-size: 0.9rem;
+  font-size: .9rem;
   margin-top: 1.8rem;
 }
 .single-meal .like-btn {
@@ -630,8 +630,15 @@ img {
 .favorites h4{
   font-size: 1.1rem;
 }
+.modal{
+  width: 95vw;
+}
 .modal .overview{
   font-size: .8rem;
+}
+.modal .timer img{
+  width: 20px;
+  height: 20px; 
 }
 .single-meal h4 {
   font-size: 0.5rem;
