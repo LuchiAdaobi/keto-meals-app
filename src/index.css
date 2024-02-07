@@ -496,7 +496,7 @@ img {
   margin-bottom: .5rem;
 }
 .ingredients .ingredient-card p {
-  font-size: .7rem;
+  font-size: .75rem;
 }
 .modal .nutrition {
   line-height: 1.5rem;
@@ -635,16 +635,19 @@ img {
   width: 90vw;
 }
 .modal .overview{
-  /* font-size: .8rem; */
+  font-size: .8rem;
 }
 .modal .timer img{
   width: 20px;
   height: 20px; 
 }
 .modal .modal-title{
-  /* font-size: .9rem; */
+  font-size: .9rem;
 }
 .single-meal h4 {
   font-size: 0.75rem;
+}
+.modal .recipe {
+  font-size: .7rem;
 }
 }
