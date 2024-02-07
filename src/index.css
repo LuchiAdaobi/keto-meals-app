@@ -616,7 +616,7 @@ img {
   width: 60vw;
 }
 }
-@media screen and(min-width: 490px){
+@media screen and (max-width: 500px){
   .favorites {
   margin-bottom: 2rem; 
 }
@@ -628,20 +628,20 @@ img {
   font-size:0.5rem;
 }
 .favorites h4{
-  font-size: 1.1rem;
+  font-size: .9rem;
 }
 .modal{
   width: 100vw;
 }
 .modal .overview{
-  font-size: .8rem;
+  font-size: .75rem;
 }
 .modal .timer img{
   width: 20px;
   height: 20px; 
 }
 .modal .modal-title{
-  font-size: 2.9rem;
+  font-size: .9rem;
 }
 .single-meal h4 {
   font-size: 0.75rem;
