@@ -11,6 +11,8 @@ export default function Modal() {
     showNutrition,
     handleShowNutrition,
     activeContent,
+    showAllIngredients,
+    setShowAllIngredients
   } = useGlobalContext();
   const {
     mealName,
@@ -46,18 +48,22 @@ export default function Modal() {
               <span>Prep Time: </span>
               {prepTime}
             </p>
-           {cookTime && <p>
-              <span>Cook Time: </span>
-              {cookTime}
-            </p>}
+            {cookTime && (
+              <p>
+                <span>Cook Time: </span>
+                {cookTime}
+              </p>
+            )}
             <p>
               <span>Total Time: </span>
               {totalTime}
             </p>
-            {nutritionalFacts.servings && <p>
-              <span>Serving: </span>
-              {nutritionalFacts.servings}
-            </p>}
+            {nutritionalFacts.servings && (
+              <p>
+                <span>Serving: </span>
+                {nutritionalFacts.servings}
+              </p>
+            )}
             <p>
               <span>Calories: </span>
               {nutritionalFacts.calories}
@@ -172,15 +178,23 @@ export default function Modal() {
           ) : (
             showIngredient && (
               <div className="ingredients">
-                {recipe.ingredients.map((ingredient, index) => (
-                  <div className="ingredient-card" key={index}>
-                    <img src={ingredient.image} alt={ingredient.name} />
-                    <p>{ingredient.name}</p>
-                  </div>
-                ))}
+                {recipe.ingredients
+                  .slice(0, showAllIngredients ? recipe.ingredients.length : 6)
+                  .map((ingredient, index) => (
+                    <div className="ingredient-card" key={index}>
+                      <img src={ingredient.image} alt={ingredient.name} />
+                      <p>{ingredient.name}</p>
+                    </div>
+                  ))}
               </div>
             )
           )}
+          <button
+            className="btn view"
+            onClick={() => setShowAllIngredients(!showAllIngredients)}
+          >
+            {showAllIngredients ? "View Less" : "View All"}
+          </button>
           <div className="source">
             <a href={originalSource} target="_blank" className="source">
               Original Source

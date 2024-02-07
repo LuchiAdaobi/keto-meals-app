@@ -521,7 +521,16 @@ img {
 .modal .source{
   font-size: .9rem;
 }
-
+.modal .btn.view{
+  background: transparent;
+  border-radius: 0px;
+  border: 0px solid;
+  color: #4d4d4b;
+  box-shadow: none;
+}
+.modal .btn.view:hover{
+  color: #6e6e67 ;
+}
 /* PAGINATION */
 .pagination{
   display: flex;
@@ -599,4 +608,11 @@ img {
     width: 200px;
     height: 200px;
   }
+
+  .ingredients{
+  /* justify-content: space-evenly; */
+}
+.modal{
+  width: 60vw;
+}
 }

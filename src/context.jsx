@@ -20,6 +20,7 @@ function AppProvider({ children }) {
     JSON.parse(localStorage.getItem("favKetoMeals")) || []
   );
   const [currentPage, setCurrentPage] = useState(1);
+  const [showAllIngredients, setShowAllIngredients] = useState(false);
 
   // VARIABLES
   const allMeals = recipes;
@@ -162,6 +163,8 @@ function AppProvider({ children }) {
         currentPage,
         setCurrentPage,
         itemsPerPage,
+        showAllIngredients,
+        setShowAllIngredients
       }}
     >
       {children}
