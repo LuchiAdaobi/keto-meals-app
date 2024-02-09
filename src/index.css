@@ -644,6 +644,9 @@ img {
 
 }
 @media screen and (max-width: 500px){
+.header{
+    gap: .5rem;
+  }
 .header img {
   width: 30px;
   height: 30px;
