@@ -64,22 +64,24 @@ export default function Meals() {
                   singleMeal;
                 return (
                   <div className="single-meal" key={id}>
-                    <img
-                      src={image}
-                      alt={mealName}
-                      onClick={() => handleShowModal(singleMeal.id)}
-                    />
+                    <div className="content">
+                      <img
+                        src={image}
+                        alt={mealName}
+                        onClick={() => handleShowModal(singleMeal.id)}
+                      />
 
-                    <button className="like-btn">
-                      <BsHandThumbsUp onClick={() => addToFavorites(id)} />
-                    </button>
+                      <button className="like-btn">
+                        <BsHandThumbsUp onClick={() => addToFavorites(id)} />
+                      </button>
 
-                    <h4>{mealName}</h4>
-                    <p className="course">Course : {course}</p>
-                    <div className="meal-timing">
-                      <p className="text-small">{totalTime}</p>
-                      <p className="text-small">|</p>
-                      <p className="text-small">{prepLevel} lvl</p>
+                      <h4>{mealName}</h4>
+                      <p className="course">Course : {course}</p>
+                      <div className="meal-timing">
+                        <p className="text-small">{totalTime}</p>
+                        <p className="text-small">|</p>
+                        <p className="text-small">{prepLevel} lvl</p>
+                      </div>
                     </div>
                   </div>
                 );
@@ -88,7 +90,7 @@ export default function Meals() {
           </div>
         )}
         {/* PAGINATION */}
-        {(meals.length > 0 && !randomMeal && !searchTerm) && (
+        {meals.length > 0 && !randomMeal && !searchTerm && (
           <div className="pagination">
             <button
               className={currentPage === 1 ? "btn disabled" : "btn"}
@@ -98,7 +100,6 @@ export default function Meals() {
               Prev
             </button>
 
-            
             {pageNumber.map((number) => (
               <button
                 className={number === currentPage ? "btn active" : "btn"}
@@ -108,6 +109,7 @@ export default function Meals() {
                 {number}
               </button>
             ))}
+
             <button
               className={
                 currentPage === pageNumber.length ? "btn disabled" : "btn"

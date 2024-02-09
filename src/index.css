@@ -172,7 +172,6 @@ img {
 /* HEADER */
 .header {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 0.5rem;
   width: 100%;
@@ -289,19 +288,22 @@ img {
 .no-meal-text{
   letter-spacing: 1px;
   text-align: center;
-  /* font-family: cursive; */
 }
 .single-meal {
   padding: 0 .2rem;
   background-color: #202019;
   border-radius: var(--border-radius);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-bottom: 3rem;
   cursor: pointer;
+}
+.single-meal .content{
+  position: relative;
+  top: -2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: -1rem;
 }
 .single-meal:hover {
   box-shadow: var(--shadow-4);
@@ -309,7 +311,7 @@ img {
 
 .single-meal h4 {
   font-size: .9rem;
-  margin-top: 1.8rem;
+  margin-top: .3rem;
 }
 .single-meal .like-btn {
   background: transparent;
@@ -318,22 +320,19 @@ img {
   cursor: pointer;
   transition: var(--transition);
   color: #ac9a32;
-  position: relative;
-  top: -1.7rem;
   right: 0;
 }
 .like-btn:hover {
   color: var(--red-dark);
   transform: translateY(-2px);
 }
+
 .single-meal img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  position: relative;
-  top: -2.6rem;
-  right: 0;
   animation: rotateAnimation 10s infinite;
+  margin-bottom: 1rem;
 }
 .single-meal .meal-timing {
   display: flex;
@@ -341,10 +340,6 @@ img {
   gap: 0.9rem;
   align-items: center;
   margin-top: .5rem;
-}
-.single-meal h4, .course, .meal-timing{
-  position: relative;
-  top: -3rem;
 }
 .single-meal .course{
   margin-top: -.9rem;

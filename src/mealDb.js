@@ -2462,7 +2462,7 @@ const recipes = [
     overview:
       "Almond flour fufu is a quick and easy keto fufu that makes an excellent alternative to high carb fufu like eba and pounded yam. Eat it with any African soup for a satisfying low carb meal!",
     image:
-      "https://lowcarbafrica.com/wp-content/uploads/2020/08/Almond-Flour-Fufu-google-1.jpg",
+      "https://lowcarbafrica.com/wp-content/uploads/2019/10/Cabbage-Fufu-blog-Nigerian-keto-diet-homepage.jpg",
     recipe: {
       instructions: [
         "1. Add one cup of water to a pot and turn on the heat.",
