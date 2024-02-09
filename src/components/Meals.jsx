@@ -38,6 +38,7 @@ export default function Meals() {
             {randomMeal ? (
               // Render randomMeal if it exists
               <div className="single-meal" key={randomMeal.id}>
+                <div className="content">
                 <img
                   src={randomMeal.image}
                   alt={randomMeal.mealName}
@@ -56,6 +57,7 @@ export default function Meals() {
                   <p className="text-small">{randomMeal.totalTime}</p>
                   <p className="text-small">|</p>
                   <p className="text-small">{randomMeal.prepLevel} lvl</p>
+                </div>
                 </div>
               </div>
             ) : (
