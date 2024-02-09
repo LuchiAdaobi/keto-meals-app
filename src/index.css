@@ -172,7 +172,7 @@ img {
 /* HEADER */
 .header {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 0.7rem;
   width: 100%;
@@ -644,6 +644,11 @@ img {
 
 }
 @media screen and (max-width: 500px){
+.header img {
+  width: 30px;
+  height: 30px;
+  
+}
   .favorites {
   margin-bottom: 2rem; 
 }
