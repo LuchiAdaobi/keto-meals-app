@@ -174,7 +174,7 @@ img {
   display: flex;
   /* align-items: center; */
   justify-content: center;
-  gap: 0.7rem;
+  gap: 0.5rem;
   width: 100%;
   color: #fff;
   position: fixed;
@@ -644,9 +644,7 @@ img {
 
 }
 @media screen and (max-width: 500px){
-.header{
-    gap: .5rem;
-  }
+
 .header img {
   width: 30px;
   height: 30px;
